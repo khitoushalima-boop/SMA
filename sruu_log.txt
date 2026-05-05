@@ -1,0 +1,641 @@
+[20:39:56.399] SYSTEM_START           | SRUU simulation started
+[20:40:06.453] INCIDENT_RECEIVED      | INC-21CDC2B1;BIOHAZARD;7;75;60;OPEN
+[20:40:06.468] UNIT_DISPATCHED        | unit=BCU1 incident=INC-21CDC2B1
+[20:40:06.470] ASSIGNED               | incident=INC-21CDC2B1 unit=BCU1 utilityScore=0,887
+[20:40:48.808] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-21CDC2B1
+[20:40:48.810] RESOLVED               | incident=INC-21CDC2B1 unit=BCU1 responseTime=42358ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 20:42:49 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 42,36 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[20:43:10.683] SYSTEM_START           | SRUU simulation started
+[20:43:20.853] INCIDENT_RECEIVED      | INC-893E4AD7;MEDICAL;8;45;45;OPEN
+[20:43:20.868] UNIT_DISPATCHED        | unit=Ambulance1 incident=INC-893E4AD7
+[20:43:20.872] ASSIGNED               | incident=INC-893E4AD7 unit=Ambulance1 utilityScore=0,889
+[20:43:56.493] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance1;INC-893E4AD7
+[20:43:56.495] RESOLVED               | incident=INC-893E4AD7 unit=Ambulance1 responseTime=35642ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 20:46:10 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 35,64 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 20:48:34 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 35,64 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[20:52:01.276] SYSTEM_START           | SRUU simulation started
+[20:52:11.103] INCIDENT_RECEIVED      | INC-9D4B7016;CRYOGENIC_LEAK;3;45;45;OPEN
+[20:52:11.115] UNIT_DISPATCHED        | unit=BCU1 incident=INC-9D4B7016
+[20:52:11.117] ASSIGNED               | incident=INC-9D4B7016 unit=BCU1 utilityScore=0,834
+[20:53:02.032] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-9D4B7016
+[20:53:02.036] RESOLVED               | incident=INC-9D4B7016 unit=BCU1 responseTime=50930ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 20:55:01 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 50,93 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:03:12.941] INCIDENT_RECEIVED      | INC-550B3368;MEDICAL;5;90;20;OPEN
+[21:03:13.374] ASSIGNED               | incident=INC-550B3368 unit=Ambulance2 utilityScore=0,816
+[21:03:13.391] UNIT_DISPATCHED        | unit=Ambulance2 incident=INC-550B3368
+[21:04:14.377] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance2;INC-550B3368
+[21:04:14.379] RESOLVED               | incident=INC-550B3368 unit=Ambulance2 responseTime=61438ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:04:38 CEST 2026
+Incidents détectés    : 2
+Incidents résolus     : 2
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 56,18 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:06:03.530] SYSTEM_START           | SRUU simulation started
+[21:06:14.131] INCIDENT_RECEIVED      | INC-D3D4216D;CRYOGENIC_LEAK;4;45;45;OPEN
+[21:06:14.155] UNIT_DISPATCHED        | unit=BCU1 incident=INC-D3D4216D
+[21:06:14.157] ASSIGNED               | incident=INC-D3D4216D unit=BCU1 utilityScore=0,844
+[21:07:04.284] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-D3D4216D
+[21:07:04.287] RESOLVED               | incident=INC-D3D4216D unit=BCU1 responseTime=50156ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:09:03 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 50,16 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:09:14 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 50,16 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:09:57.468] SYSTEM_START           | SRUU simulation started
+[21:10:09.268] INCIDENT_RECEIVED      | INC-55E1796E;CRYOGENIC_LEAK;9;75;60;OPEN
+[21:10:09.299] UNIT_DISPATCHED        | unit=BCU1 incident=INC-55E1796E
+[21:10:09.301] ASSIGNED               | incident=INC-55E1796E unit=BCU1 utilityScore=0,907
+[21:10:45.249] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-55E1796E
+[21:10:45.251] RESOLVED               | incident=INC-55E1796E unit=BCU1 responseTime=35983ms
+[21:11:12.738] INCIDENT_RECEIVED      | INC-E8B4F0BF;CRYOGENIC_LEAK;3;45;45;OPEN
+[21:11:12.744] UNRESOLVED             | No unit could be assigned to INC-E8B4F0BF
+[21:11:44.490] INCIDENT_RECEIVED      | INC-2EEF3823;STRUCTURAL_COLLAPSE;5;45;45;OPEN
+[21:11:44.509] ASSIGNED               | incident=INC-2EEF3823 unit=FireTruck2 utilityScore=0,905
+[21:11:44.510] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-2EEF3823
+[21:12:04.679] RESOLVED               | incident=INC-2EEF3823 unit=FireTruck2 responseTime=20189ms
+[21:12:04.683] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-2EEF3823
+[21:12:05.655] INCIDENT_RECEIVED      | INC-F6E0C7EA;CRYOGENIC_LEAK;6;75;60;OPEN
+[21:12:05.666] ASSIGNED               | incident=INC-F6E0C7EA unit=BCU1 utilityScore=0,877
+[21:12:05.668] UNIT_DISPATCHED        | unit=BCU1 incident=INC-F6E0C7EA
+[21:12:26.806] INCIDENT_RECEIVED      | INC-FC8AE069;FIRE;9;75;60;OPEN
+[21:12:26.818] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-FC8AE069
+[21:12:26.824] ASSIGNED               | incident=INC-FC8AE069 unit=FireTruck2 utilityScore=0,958
+[21:12:26.858] INCIDENT_RECEIVED      | INC-269B6C29;FIRE;3;90;20;OPEN
+[21:12:26.867] ASSIGNED               | incident=INC-269B6C29 unit=FireTruck1 utilityScore=0,801
+[21:12:26.871] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-269B6C29
+[21:12:41.008] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-F6E0C7EA
+[21:12:41.010] RESOLVED               | incident=INC-F6E0C7EA unit=BCU1 responseTime=35354ms
+[21:12:41.685] INCIDENT_RECEIVED      | INC-A057F158;MEDICAL;10;90;20;OPEN
+[21:12:41.691] ASSIGNED               | incident=INC-A057F158 unit=Ambulance2 utilityScore=0,866
+[21:12:41.693] UNIT_DISPATCHED        | unit=Ambulance2 incident=INC-A057F158
+[21:12:43.006] ABORT                  | incident=INC-FC8AE069 unit=FireTruck2 reason=WATER_EXHAUSTED
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:12:57 CEST 2026
+Incidents détectés    : 7
+Incidents résolus     : 3
+Incidents non résolus : 4
+Incidents abandonnés  : 1
+Temps de réponse moyen: 30,51 secondes
+
+Incidents non résolus:
+  - INC-E8B4F0BF
+  - INC-FC8AE069
+  - INC-269B6C29
+  - INC-A057F158
+
+Abandoms:
+  - INC-FC8AE069
+========================================
+
+[21:12:58.551] INCIDENT_RECEIVED      | INC-7810B43C;STRUCTURAL_COLLAPSE;1;75;60;OPEN
+[21:12:58.561] ASSIGNED               | incident=INC-7810B43C unit=Police2 utilityScore=0,705
+[21:12:58.564] UNIT_DISPATCHED        | unit=Police2 incident=INC-7810B43C
+[21:13:22.440] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-7810B43C
+[21:13:22.443] RESOLVED               | incident=INC-7810B43C unit=Police2 responseTime=23892ms
+[21:13:30.291] INCIDENT_RECEIVED      | INC-015B5A04;FIRE;6;45;45;OPEN
+[21:13:30.298] UNRESOLVED             | No unit could be assigned to INC-015B5A04
+[21:13:32.444] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-269B6C29
+[21:13:42.379] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance2;INC-A057F158
+[21:14:02.035] INCIDENT_RECEIVED      | INC-5CA6E2F2;FIRE;8;45;45;OPEN
+[21:14:02.052] UNRESOLVED             | No unit could be assigned to INC-5CA6E2F2
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:16:08 CEST 2026
+Incidents détectés    : 10
+Incidents résolus     : 4
+Incidents non résolus : 6
+Incidents abandonnés  : 1
+Temps de réponse moyen: 28,85 secondes
+
+Incidents non résolus:
+  - INC-E8B4F0BF
+  - INC-FC8AE069
+  - INC-269B6C29
+  - INC-A057F158
+  - INC-015B5A04
+  - INC-5CA6E2F2
+
+Abandoms:
+  - INC-FC8AE069
+========================================
+
+[21:17:48.991] SYSTEM_START           | SRUU simulation started
+[21:18:01.067] INCIDENT_RECEIVED      | INC-4DA75080;CRYOGENIC_LEAK;2;45;45;OPEN
+[21:18:01.090] UNIT_DISPATCHED        | unit=BCU1 incident=INC-4DA75080
+[21:18:01.092] ASSIGNED               | incident=INC-4DA75080 unit=BCU1 utilityScore=0,824
+[21:18:52.097] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-4DA75080
+[21:18:52.099] RESOLVED               | incident=INC-4DA75080 unit=BCU1 responseTime=51032ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:18:55 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 51,03 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:22:55.896] SYSTEM_START           | SRUU simulation started
+[21:23:05.386] INCIDENT_RECEIVED      | INC-6AC9BC5B;BIOHAZARD;1;15;25;OPEN
+[21:23:05.411] UNIT_DISPATCHED        | unit=BCU1 incident=INC-6AC9BC5B
+[21:23:05.414] ASSIGNED               | incident=INC-6AC9BC5B unit=BCU1 utilityScore=0,753
+[21:24:16.242] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-6AC9BC5B
+[21:24:16.246] RESOLVED               | incident=INC-6AC9BC5B unit=BCU1 responseTime=70860ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:24:23 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 70,86 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:25:29.257] SYSTEM_START           | SRUU simulation started
+[21:25:40.884] INCIDENT_RECEIVED      | INC-4C83CC25;STRUCTURAL_COLLAPSE;5;15;25;OPEN
+[21:25:40.937] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-4C83CC25
+[21:25:40.940] ASSIGNED               | incident=INC-4C83CC25 unit=FireTruck1 utilityScore=0,905
+[21:26:00.036] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-4C83CC25
+[21:26:00.038] RESOLVED               | incident=INC-4C83CC25 unit=FireTruck1 responseTime=19154ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:28:29 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 19,15 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:29:15 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 19,15 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:30:30.369] SYSTEM_START           | SRUU simulation started
+[21:30:39.883] INCIDENT_RECEIVED      | INC-440627C0;STRUCTURAL_COLLAPSE;1;90;20;OPEN
+[21:30:39.959] ASSIGNED               | incident=INC-440627C0 unit=FireTruck2 utilityScore=0,804
+[21:30:39.964] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-440627C0
+[21:31:24.180] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-440627C0
+[21:31:24.181] RESOLVED               | incident=INC-440627C0 unit=FireTruck2 responseTime=44298ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:33:30 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 44,30 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:33:33 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 44,30 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:35:44.379] SYSTEM_START           | SRUU simulation started
+[21:35:56.698] INCIDENT_RECEIVED      | INC-15284772;CRYOGENIC_LEAK;3;45;45;OPEN
+[21:35:56.757] UNIT_DISPATCHED        | unit=BCU1 incident=INC-15284772
+[21:35:56.761] ASSIGNED               | incident=INC-15284772 unit=BCU1 utilityScore=0,834
+[21:36:47.402] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-15284772
+[21:36:47.407] RESOLVED               | incident=INC-15284772 unit=BCU1 responseTime=50709ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Sun May 03 21:37:31 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 50,71 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:10:56.381] SYSTEM_START           | SRUU simulation started
+[01:11:06.016] INCIDENT_RECEIVED      | INC-461DBD9C;BIOHAZARD;6;15;25;OPEN
+[01:11:06.038] UNIT_DISPATCHED        | unit=BCU1 incident=INC-461DBD9C
+[01:11:06.041] ASSIGNED               | incident=INC-461DBD9C unit=BCU1 utilityScore=0,803
+[01:12:17.102] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-461DBD9C
+[01:12:17.104] RESOLVED               | incident=INC-461DBD9C unit=BCU1 responseTime=71089ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:13:34 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 71,09 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:16:27.993] SYSTEM_START           | SRUU simulation started
+[01:16:37.983] INCIDENT_RECEIVED      | INC-ADF7FCAF;STRUCTURAL_COLLAPSE;7;45;45;OPEN
+[01:16:38.043] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-ADF7FCAF
+[01:16:38.045] ASSIGNED               | incident=INC-ADF7FCAF unit=FireTruck2 utilityScore=0,925
+[01:16:46.760] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-ADF7FCAF
+[01:16:46.763] RESOLVED               | incident=INC-ADF7FCAF unit=FireTruck2 responseTime=8780ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:17:03 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 8,78 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:19:05.194] SYSTEM_START           | SRUU simulation started
+[01:19:15.609] INCIDENT_RECEIVED      | INC-AD5F1FE9;CRYOGENIC_LEAK;4;75;60;OPEN
+[01:19:15.661] UNIT_DISPATCHED        | unit=BCU1 incident=INC-AD5F1FE9
+[01:19:15.664] ASSIGNED               | incident=INC-AD5F1FE9 unit=BCU1 utilityScore=0,857
+[01:19:32.103] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-AD5F1FE9
+[01:19:32.104] RESOLVED               | incident=INC-AD5F1FE9 unit=BCU1 responseTime=16495ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:21:40 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 16,50 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:23:59.291] SYSTEM_START           | SRUU simulation started
+[01:24:12.078] INCIDENT_RECEIVED      | INC-DF7CBC70;BIOHAZARD;1;90;20;OPEN
+[01:24:12.147] UNIT_DISPATCHED        | unit=BCU1 incident=INC-DF7CBC70
+[01:24:12.149] ASSIGNED               | incident=INC-DF7CBC70 unit=BCU1 utilityScore=0,739
+[01:24:29.760] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-DF7CBC70
+[01:24:29.762] RESOLVED               | incident=INC-DF7CBC70 unit=BCU1 responseTime=17684ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:26:41 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 17,68 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:27:31.624] SYSTEM_START           | SRUU simulation started
+[01:27:42.790] INCIDENT_RECEIVED      | INC-FCD4CDBD;CRYOGENIC_LEAK;2;15;25;OPEN
+[01:27:42.863] UNIT_DISPATCHED        | unit=BCU1 incident=INC-FCD4CDBD
+[01:27:42.866] ASSIGNED               | incident=INC-FCD4CDBD unit=BCU1 utilityScore=0,763
+[01:27:59.344] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-FCD4CDBD
+[01:27:59.346] RESOLVED               | incident=INC-FCD4CDBD unit=BCU1 responseTime=16557ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:28:29 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 16,56 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:29:28.251] SYSTEM_START           | SRUU simulation started
+[01:29:42.249] INCIDENT_RECEIVED      | INC-06441387;FIRE;10;15;25;OPEN
+[01:29:42.302] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-06441387
+[01:29:42.304] ASSIGNED               | incident=INC-06441387 unit=FireTruck1 utilityScore=0,955
+[01:29:46.095] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-06441387
+[01:29:46.099] RESOLVED               | incident=INC-06441387 unit=FireTruck1 responseTime=3850ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:30:38 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 3,85 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:32:39.208] SYSTEM_START           | SRUU simulation started
+[01:32:49.817] INCIDENT_RECEIVED      | INC-17DCF5F7;FIRE;3;15;25;OPEN
+[01:32:50.261] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-17DCF5F7
+[01:32:50.262] ASSIGNED               | incident=INC-17DCF5F7 unit=FireTruck1 utilityScore=0,885
+[01:32:54.051] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-17DCF5F7
+[01:32:54.054] RESOLVED               | incident=INC-17DCF5F7 unit=FireTruck1 responseTime=4237ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:33:59 CEST 2026
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 4,24 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:34:34.854] SYSTEM_START           | SRUU simulation started
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:34:44 CEST 2026
+Incidents détectés    : 0
+Incidents résolus     : 0
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 0,00 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[01:36:42.999] SYSTEM_START           | SRUU simulation started
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date       : Mon May 04 01:36:54 CEST 2026
+Incidents détectés    : 0
+Incidents résolus     : 0
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Temps de réponse moyen: 0,00 secondes
+
+Incidents non résolus:
+
+Abandoms:
+========================================
+
+[21:22:41.148] SYSTEM_START           | SRUU simulation started
+[21:22:51.666] INCIDENT_RECEIVED      | id=INC-630D733B type=STRUCTURAL_COLLAPSE
+[21:22:51.863] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-630D733B
+[21:22:51.866] ASSIGNED               | incident=INC-630D733B unit=FireTruck2 utilityScore=0,928
+[21:22:55.821] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-630D733B
+[21:25:17.346] SYSTEM_START           | SRUU simulation started
+[21:25:26.907] INCIDENT_RECEIVED      | id=INC-72840A7C type=STRUCTURAL_COLLAPSE
+[21:25:27.110] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-72840A7C
+[21:25:27.116] ASSIGNED               | incident=INC-72840A7C unit=FireTruck1 utilityScore=0,839
+[21:25:36.192] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-72840A7C
+[21:25:36.194] RESOLVED               | incident=INC-72840A7C unit=FireTruck1 responseTime=9287ms
+[21:26:33.643] SYSTEM_START           | SRUU simulation started
+[21:26:47.210] INCIDENT_RECEIVED      | id=INC-49C45ED9 type=FIRE
+[21:26:47.369] UNIT_DISPATCHED        | unit=Police2 incident=INC-49C45ED9
+[21:26:47.373] ASSIGNED               | incident=INC-49C45ED9 unit=Police2 utilityScore=0,460
+[21:26:54.567] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-49C45ED9
+[21:28:38.708] SYSTEM_START           | SRUU simulation started
+[21:28:49.837] INCIDENT_RECEIVED      | id=INC-076FB998 type=STRUCTURAL_COLLAPSE
+[21:28:50.530] UNIT_DISPATCHED        | unit=Police2 incident=INC-076FB998
+[21:28:50.548] ASSIGNED               | incident=INC-076FB998 unit=Police2 utilityScore=0,597
+[21:28:53.434] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-076FB998
+[21:28:53.437] RESOLVED               | incident=INC-076FB998 unit=Police2 responseTime=3600ms
+[23:58:45.996] SYSTEM_START           | SRUU simulation started
+[23:58:55.562] INCIDENT_RECEIVED      | id=INC-0B71E37D type=FIRE
+[23:58:55.680] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-0B71E37D
+[23:58:55.685] ASSIGNED               | incident=INC-0B71E37D unit=FireTruck2 utilityScore=0,915
+[23:58:59.639] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-0B71E37D
+[23:58:59.641] RESOLVED               | incident=INC-0B71E37D unit=FireTruck2 responseTime=4079ms
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date de génération   : 2026-05-06 00:01:46
+Durée de simulation  : 3 minutes
+
+--- STATISTIQUES GLOBALES ---
+Incidents détectés    : 1
+Incidents résolus     : 1
+Incidents non résolus : 0
+Incidents abandonnés  : 0
+Taux de résolution    : 100,0%
+Temps de réponse moyen: 4,08 secondes
+
+--- STATISTIQUES PAR TYPE D'INCIDENT ---
+FIRE                : 1 incidents
+
+--- STATISTIQUES PAR UNITÉ D'INTERVENTION ---
+FireTruck2     : 1 interventions
+
+--- INCIDENTS NON RÉSOLUS ---
+Aucun incident non résolu
+
+--- INCIDENTS ABANDONNÉS ---
+Aucun incident abandonné
+========================================
+
+[00:04:06.983] SYSTEM_START           | SRUU simulation started
+[00:04:16.800] INCIDENT_RECEIVED      | id=INC-835B647A type=FIRE
+[00:04:16.966] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-835B647A
+[00:04:16.975] ASSIGNED               | incident=INC-835B647A unit=FireTruck2 utilityScore=0,915
+[00:04:20.905] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-835B647A
+
+========================================
+    SRUU — RAPPORT FINAL DE SIMULATION
+========================================
+Date de génération   : 2026-05-06 00:07:07
+Durée de simulation  : 3 minutes
+
+--- STATISTIQUES GLOBALES ---
+Incidents détectés    : 1
+Incidents résolus     : 0
+Incidents non résolus : 1
+Incidents abandonnés  : 0
+Taux de résolution    : 0,0%
+Temps de réponse moyen: 0,00 secondes
+
+--- STATISTIQUES PAR TYPE D'INCIDENT ---
+
+--- STATISTIQUES PAR UNITÉ D'INTERVENTION ---
+
+--- INCIDENTS NON RÉSOLUS ---
+- INC-835B647A (type: FIRE)
+
+--- INCIDENTS ABANDONNÉS ---
+Aucun incident abandonné
+========================================
+
