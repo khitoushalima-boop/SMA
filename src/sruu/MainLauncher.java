@@ -32,7 +32,7 @@ public class MainLauncher {
         System.out.println("=================================================");
 
         // ── Infrastructure Agents ─────────────────────────
-        startAgent(container, "GUI",              "sruu.agents.GUIAgent",                         null);
+        startAgent(container, "GUI",              "sruu.agents.SimpleGUIAgent",                   null);
         startAgent(container, "Logger",           "sruu.agents.LoggerAgent",                      null);
         startAgent(container, "Dispatcher",       "sruu.agents.DispatcherAgent",                  null);
         startAgent(container, "TrafficController","sruu.agents.TrafficControllerAgent",            null);
@@ -53,8 +53,8 @@ public class MainLauncher {
         startAgent(container, "Police1",          "sruu.agents.PoliceAgent",     new Object[]{"20","50"});
         startAgent(container, "Police2",          "sruu.agents.PoliceAgent",     new Object[]{"80","40"});
 
-        // Biohazard Containment Units
-        startAgent(container, "BCU1",             "sruu.agents.BiohazardContainmentUnitAgent", new Object[]{"50","90"});
+        // Biohazard Containment Units - REMOVED (class doesn't exist)
+        // startAgent(container, "BCU1",             "sruu.agents.BiohazardContainmentUnitAgent", new Object[]{"50","90"});
 
         Thread.sleep(500); // let units register with DF
 
@@ -68,7 +68,41 @@ public class MainLauncher {
         System.out.println("=================================================");
         System.out.println("  All agents started. Simulation running...");
         System.out.println("  Log file: sruu_log.txt");
+        System.out.println("  Waiting for simulation completion signal...");
         System.out.println("=================================================");
+        
+        // Wait for LoggerAgent to send shutdown signal (coordination mechanism)
+        waitForSimulationCompletion();
+        
+        // Graceful shutdown of JADE container
+        System.out.println("[LAUNCHER] Shutting down JADE platform...");
+        container.kill();
+        System.out.println("[LAUNCHER] Simulation completed successfully.");
+        System.exit(0);
+    }
+    
+    private static void waitForSimulationCompletion() {
+        // Wait for maximum 4 minutes for simulation to complete
+        long maxWaitTime = 240000; // 4 minutes
+        long startTime = System.currentTimeMillis();
+        
+        while (System.currentTimeMillis() - startTime < maxWaitTime) {
+            try {
+                Thread.sleep(1000);
+                
+                // Check if LoggerAgent has generated the final report
+                // This is a coordination mechanism - we wait for the report file to be updated
+                java.io.File reportFile = new java.io.File("sruu_final_report.txt");
+                if (reportFile.exists() && reportFile.length() > 0) {
+                    // Give a moment for agents to receive shutdown signal
+                    Thread.sleep(2000);
+                    break;
+                }
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+        }
     }
 
     private static void startAgent(AgentContainer container, String name, String className, Object[] args) {

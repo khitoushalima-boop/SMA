@@ -10,6 +10,7 @@ import jade.domain.FIPAException;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 import java.util.*;
+import sruu.utils.OrganizationManager;
 
 public class TrafficControllerAgent extends Agent {
 
@@ -19,14 +20,16 @@ public class TrafficControllerAgent extends Agent {
     protected void setup() {
         System.out.println("[TRAFFIC_CONTROLLER] Started.");
         
-        // Register with DF
+        // Register with DF using AGR model (Agent-Groupe-Rôle)
         try {
-            DFAgentDescription dfd = new DFAgentDescription();
-            ServiceDescription sd = new ServiceDescription();
-            sd.setType("TRAFFIC_CONTROLLER");
-            dfd.setName(getAID());
-            dfd.addServices(sd);
+            DFAgentDescription dfd = OrganizationManager.createAgentDescription(
+                getAID(), 
+                OrganizationManager.ROLE_TRAFFIC_CONTROLLER, 
+                OrganizationManager.GROUP_COORDINATION
+            );
             DFService.register(this, dfd);
+            System.out.println("[TRAFFIC_CONTROLLER] Registered with role: " + 
+                OrganizationManager.ROLE_TRAFFIC_CONTROLLER + " in group: " + OrganizationManager.GROUP_COORDINATION);
         } catch (FIPAException e) {
             e.printStackTrace();
         }

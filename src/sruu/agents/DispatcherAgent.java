@@ -12,6 +12,7 @@ import sruu.ontology.Incident;
 import sruu.ontology.IncidentType;
 import sruu.ontology.UnitProposal;
 import sruu.utils.UtilityCalculator;
+import sruu.utils.OrganizationManager;
 
 import java.util.*;
 
@@ -23,9 +24,25 @@ public class DispatcherAgent extends Agent {
     @Override
     protected void setup() {
         System.out.println("[DISPATCHER] Started.");
+        
+        // Register with DF using AGR model (Agent-Groupe-Rôle)
+        try {
+            DFAgentDescription dfd = OrganizationManager.createAgentDescription(
+                getAID(), 
+                OrganizationManager.ROLE_DISPATCHER, 
+                OrganizationManager.GROUP_COORDINATION
+            );
+            DFService.register(this, dfd);
+            System.out.println("[DISPATCHER] Registered with role: " + 
+                OrganizationManager.ROLE_DISPATCHER + " in group: " + OrganizationManager.GROUP_COORDINATION);
+        } catch (FIPAException e) {
+            e.printStackTrace();
+        }
+        
         addBehaviour(new IncidentListenerBehaviour());
         addBehaviour(new AbortListenerBehaviour());
         addBehaviour(new UnitStatusListenerBehaviour());
+        addBehaviour(new CoordinationListenerBehaviour());
     }
 
     private class IncidentListenerBehaviour extends CyclicBehaviour {
@@ -97,6 +114,10 @@ public class DispatcherAgent extends Agent {
             myAgent.send(cfp);
             cfpTime = System.currentTimeMillis();
             System.out.println("[DISPATCHER] CFP sent for " + incident.getId() + " to " + units.length + " units.");
+            
+            // Send communication event to GUI
+            sendCommunicationEvent("Dispatcher", "CFP", "All Units");
+            
             step = 1;
         }
 
@@ -120,6 +141,9 @@ public class DispatcherAgent extends Agent {
                     proposal.setUtilityScore(score);
                     proposals.add(proposal);
                     System.out.println("[DISPATCHER] Received proposal: " + proposal);
+                    
+                    // Send communication event to GUI
+                    sendCommunicationEvent(msg.getSender().getLocalName(), "PROPOSE", "Dispatcher");
                 }
                 if (receivedResponses >= expectedResponders) {
                     step = 2;
@@ -145,6 +169,9 @@ public class DispatcherAgent extends Agent {
             accept.setOntology("EmergencyOntology");
             accept.setContent("ACCEPT:" + incident.serialize());
             myAgent.send(accept);
+            
+            // Send communication event to GUI
+            sendCommunicationEvent("Dispatcher", "ACCEPT", winner.getUnitName());
 
             for (int i = 1; i < proposals.size(); i++) {
                 ACLMessage reject = new ACLMessage(ACLMessage.REJECT_PROPOSAL);
@@ -225,36 +252,96 @@ public class DispatcherAgent extends Agent {
             }
         }
     }
+    
+    /**
+     * Behaviour pour écouter les signaux de coordination (shutdown)
+     * Implémentation du mécanisme de coordination selon la théorie
+     */
+    private class CoordinationListenerBehaviour extends CyclicBehaviour {
+        private final MessageTemplate mt = MessageTemplate.and(
+            MessageTemplate.MatchPerformative(ACLMessage.INFORM),
+            MessageTemplate.MatchContent("SIMULATION_COMPLETE")
+        );
+
+        @Override
+        public void action() {
+            ACLMessage msg = myAgent.receive(mt);
+            if (msg != null) {
+                System.out.println("[DISPATCHER] Received shutdown signal from " + msg.getSender().getLocalName());
+                myAgent.doDelete();
+            } else {
+                block(1000);
+            }
+        }
+    }
 
     private AID[] findEligibleUnits(IncidentType type) {
         try {
-            DFAgentDescription dfd = new DFAgentDescription();
+            List<AID> eligibleUnits = new ArrayList<>();
+            
+            // Determine required unit type based on incident type
+            String requiredServiceType;
+            switch (type) {
+                case MEDICAL:
+                    requiredServiceType = "Ambulance";
+                    break;
+                case FIRE:
+                case STRUCTURAL_COLLAPSE:
+                    requiredServiceType = "FireTruck";
+                    break;
+                default:
+                    requiredServiceType = "Police";
+                    break;
+            }
+            
+            // Search for units with required service type
+            DFAgentDescription template = new DFAgentDescription();
             ServiceDescription sd = new ServiceDescription();
-            String[] capabilities = getCapabilitiesFor(type);
+            sd.setType(requiredServiceType);
+            template.addServices(sd);
             
-            for (String cap : capabilities) {
-                sd.setType(cap);
-                dfd.addServices(sd);
+            DFAgentDescription[] result = DFService.search(this, template);
+            for (DFAgentDescription agentDesc : result) {
+                AID agentAID = agentDesc.getName();
+                if (!eligibleUnits.contains(agentAID)) {
+                    eligibleUnits.add(agentAID);
+                    System.out.println("[DISPATCHER] Found eligible unit: " + agentAID.getLocalName() + 
+                        " for incident type: " + type);
+                }
             }
             
-            DFAgentDescription[] result = DFService.search(this, dfd);
-            AID[] agents = new AID[result.length];
-            for (int i = 0; i < result.length; i++) {
-                agents[i] = result[i].getName();
-            }
-            return agents;
+            return eligibleUnits.toArray(new AID[0]);
         } catch (FIPAException fe) {
             fe.printStackTrace();
             return new AID[0];
         }
     }
+    
+    private void sendCommunicationEvent(String from, String type, String to) {
+        try {
+            ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
+            msg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
+            msg.setContent("COMMUNICATION:" + from + ":" + type + ":" + to);
+            msg.setOntology("EmergencyOntology");
+            send(msg);
+        } catch (Exception e) {
+            // Ignore GUI communication errors
+        }
+    }
 
     private String[] getCapabilitiesFor(IncidentType type) {
         switch (type) {
-            case FIRE: return new String[]{"FIRE", "RESCUE"};
-            case MEDICAL: return new String[]{"MEDICAL"};
-            case STRUCTURAL_COLLAPSE: return new String[]{"RESCUE", "CROWD_CONTROL", "PERIMETER"};
-            case BIOHAZARD: return new String[]{"BIOHAZARD"};
+            case FIRE: return new String[]{
+                OrganizationManager.SERVICE_FIRE, 
+                OrganizationManager.SERVICE_RESCUE
+            };
+            case MEDICAL: return new String[]{OrganizationManager.SERVICE_MEDICAL};
+            case STRUCTURAL_COLLAPSE: return new String[]{
+                OrganizationManager.SERVICE_RESCUE, 
+                OrganizationManager.SERVICE_CROWD_CONTROL, 
+                OrganizationManager.SERVICE_PERIMETER
+            };
+            case BIOHAZARD: return new String[]{OrganizationManager.SERVICE_BIOHAZARD_CONTAINMENT};
             case CRYOGENIC_LEAK: return new String[]{"CRYOGENIC"};
             default: return new String[0];
         }

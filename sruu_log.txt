@@ -1,641 +1,423 @@
-[20:39:56.399] SYSTEM_START           | SRUU simulation started
-[20:40:06.453] INCIDENT_RECEIVED      | INC-21CDC2B1;BIOHAZARD;7;75;60;OPEN
-[20:40:06.468] UNIT_DISPATCHED        | unit=BCU1 incident=INC-21CDC2B1
-[20:40:06.470] ASSIGNED               | incident=INC-21CDC2B1 unit=BCU1 utilityScore=0,887
-[20:40:48.808] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-21CDC2B1
-[20:40:48.810] RESOLVED               | incident=INC-21CDC2B1 unit=BCU1 responseTime=42358ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 20:42:49 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 42,36 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[20:43:10.683] SYSTEM_START           | SRUU simulation started
-[20:43:20.853] INCIDENT_RECEIVED      | INC-893E4AD7;MEDICAL;8;45;45;OPEN
-[20:43:20.868] UNIT_DISPATCHED        | unit=Ambulance1 incident=INC-893E4AD7
-[20:43:20.872] ASSIGNED               | incident=INC-893E4AD7 unit=Ambulance1 utilityScore=0,889
-[20:43:56.493] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance1;INC-893E4AD7
-[20:43:56.495] RESOLVED               | incident=INC-893E4AD7 unit=Ambulance1 responseTime=35642ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 20:46:10 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 35,64 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 20:48:34 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 35,64 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[20:52:01.276] SYSTEM_START           | SRUU simulation started
-[20:52:11.103] INCIDENT_RECEIVED      | INC-9D4B7016;CRYOGENIC_LEAK;3;45;45;OPEN
-[20:52:11.115] UNIT_DISPATCHED        | unit=BCU1 incident=INC-9D4B7016
-[20:52:11.117] ASSIGNED               | incident=INC-9D4B7016 unit=BCU1 utilityScore=0,834
-[20:53:02.032] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-9D4B7016
-[20:53:02.036] RESOLVED               | incident=INC-9D4B7016 unit=BCU1 responseTime=50930ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 20:55:01 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 50,93 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:03:12.941] INCIDENT_RECEIVED      | INC-550B3368;MEDICAL;5;90;20;OPEN
-[21:03:13.374] ASSIGNED               | incident=INC-550B3368 unit=Ambulance2 utilityScore=0,816
-[21:03:13.391] UNIT_DISPATCHED        | unit=Ambulance2 incident=INC-550B3368
-[21:04:14.377] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance2;INC-550B3368
-[21:04:14.379] RESOLVED               | incident=INC-550B3368 unit=Ambulance2 responseTime=61438ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:04:38 CEST 2026
-Incidents détectés    : 2
-Incidents résolus     : 2
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 56,18 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:06:03.530] SYSTEM_START           | SRUU simulation started
-[21:06:14.131] INCIDENT_RECEIVED      | INC-D3D4216D;CRYOGENIC_LEAK;4;45;45;OPEN
-[21:06:14.155] UNIT_DISPATCHED        | unit=BCU1 incident=INC-D3D4216D
-[21:06:14.157] ASSIGNED               | incident=INC-D3D4216D unit=BCU1 utilityScore=0,844
-[21:07:04.284] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-D3D4216D
-[21:07:04.287] RESOLVED               | incident=INC-D3D4216D unit=BCU1 responseTime=50156ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:09:03 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 50,16 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:09:14 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 50,16 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:09:57.468] SYSTEM_START           | SRUU simulation started
-[21:10:09.268] INCIDENT_RECEIVED      | INC-55E1796E;CRYOGENIC_LEAK;9;75;60;OPEN
-[21:10:09.299] UNIT_DISPATCHED        | unit=BCU1 incident=INC-55E1796E
-[21:10:09.301] ASSIGNED               | incident=INC-55E1796E unit=BCU1 utilityScore=0,907
-[21:10:45.249] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-55E1796E
-[21:10:45.251] RESOLVED               | incident=INC-55E1796E unit=BCU1 responseTime=35983ms
-[21:11:12.738] INCIDENT_RECEIVED      | INC-E8B4F0BF;CRYOGENIC_LEAK;3;45;45;OPEN
-[21:11:12.744] UNRESOLVED             | No unit could be assigned to INC-E8B4F0BF
-[21:11:44.490] INCIDENT_RECEIVED      | INC-2EEF3823;STRUCTURAL_COLLAPSE;5;45;45;OPEN
-[21:11:44.509] ASSIGNED               | incident=INC-2EEF3823 unit=FireTruck2 utilityScore=0,905
-[21:11:44.510] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-2EEF3823
-[21:12:04.679] RESOLVED               | incident=INC-2EEF3823 unit=FireTruck2 responseTime=20189ms
-[21:12:04.683] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-2EEF3823
-[21:12:05.655] INCIDENT_RECEIVED      | INC-F6E0C7EA;CRYOGENIC_LEAK;6;75;60;OPEN
-[21:12:05.666] ASSIGNED               | incident=INC-F6E0C7EA unit=BCU1 utilityScore=0,877
-[21:12:05.668] UNIT_DISPATCHED        | unit=BCU1 incident=INC-F6E0C7EA
-[21:12:26.806] INCIDENT_RECEIVED      | INC-FC8AE069;FIRE;9;75;60;OPEN
-[21:12:26.818] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-FC8AE069
-[21:12:26.824] ASSIGNED               | incident=INC-FC8AE069 unit=FireTruck2 utilityScore=0,958
-[21:12:26.858] INCIDENT_RECEIVED      | INC-269B6C29;FIRE;3;90;20;OPEN
-[21:12:26.867] ASSIGNED               | incident=INC-269B6C29 unit=FireTruck1 utilityScore=0,801
-[21:12:26.871] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-269B6C29
-[21:12:41.008] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-F6E0C7EA
-[21:12:41.010] RESOLVED               | incident=INC-F6E0C7EA unit=BCU1 responseTime=35354ms
-[21:12:41.685] INCIDENT_RECEIVED      | INC-A057F158;MEDICAL;10;90;20;OPEN
-[21:12:41.691] ASSIGNED               | incident=INC-A057F158 unit=Ambulance2 utilityScore=0,866
-[21:12:41.693] UNIT_DISPATCHED        | unit=Ambulance2 incident=INC-A057F158
-[21:12:43.006] ABORT                  | incident=INC-FC8AE069 unit=FireTruck2 reason=WATER_EXHAUSTED
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:12:57 CEST 2026
-Incidents détectés    : 7
-Incidents résolus     : 3
-Incidents non résolus : 4
-Incidents abandonnés  : 1
-Temps de réponse moyen: 30,51 secondes
-
-Incidents non résolus:
-  - INC-E8B4F0BF
-  - INC-FC8AE069
-  - INC-269B6C29
-  - INC-A057F158
-
-Abandoms:
-  - INC-FC8AE069
-========================================
-
-[21:12:58.551] INCIDENT_RECEIVED      | INC-7810B43C;STRUCTURAL_COLLAPSE;1;75;60;OPEN
-[21:12:58.561] ASSIGNED               | incident=INC-7810B43C unit=Police2 utilityScore=0,705
-[21:12:58.564] UNIT_DISPATCHED        | unit=Police2 incident=INC-7810B43C
-[21:13:22.440] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-7810B43C
-[21:13:22.443] RESOLVED               | incident=INC-7810B43C unit=Police2 responseTime=23892ms
-[21:13:30.291] INCIDENT_RECEIVED      | INC-015B5A04;FIRE;6;45;45;OPEN
-[21:13:30.298] UNRESOLVED             | No unit could be assigned to INC-015B5A04
-[21:13:32.444] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-269B6C29
-[21:13:42.379] OPERATION_COMPLETE     | TREATMENT_DONE:Ambulance2;INC-A057F158
-[21:14:02.035] INCIDENT_RECEIVED      | INC-5CA6E2F2;FIRE;8;45;45;OPEN
-[21:14:02.052] UNRESOLVED             | No unit could be assigned to INC-5CA6E2F2
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:16:08 CEST 2026
-Incidents détectés    : 10
-Incidents résolus     : 4
-Incidents non résolus : 6
-Incidents abandonnés  : 1
-Temps de réponse moyen: 28,85 secondes
-
-Incidents non résolus:
-  - INC-E8B4F0BF
-  - INC-FC8AE069
-  - INC-269B6C29
-  - INC-A057F158
-  - INC-015B5A04
-  - INC-5CA6E2F2
-
-Abandoms:
-  - INC-FC8AE069
-========================================
-
-[21:17:48.991] SYSTEM_START           | SRUU simulation started
-[21:18:01.067] INCIDENT_RECEIVED      | INC-4DA75080;CRYOGENIC_LEAK;2;45;45;OPEN
-[21:18:01.090] UNIT_DISPATCHED        | unit=BCU1 incident=INC-4DA75080
-[21:18:01.092] ASSIGNED               | incident=INC-4DA75080 unit=BCU1 utilityScore=0,824
-[21:18:52.097] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-4DA75080
-[21:18:52.099] RESOLVED               | incident=INC-4DA75080 unit=BCU1 responseTime=51032ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:18:55 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 51,03 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:22:55.896] SYSTEM_START           | SRUU simulation started
-[21:23:05.386] INCIDENT_RECEIVED      | INC-6AC9BC5B;BIOHAZARD;1;15;25;OPEN
-[21:23:05.411] UNIT_DISPATCHED        | unit=BCU1 incident=INC-6AC9BC5B
-[21:23:05.414] ASSIGNED               | incident=INC-6AC9BC5B unit=BCU1 utilityScore=0,753
-[21:24:16.242] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-6AC9BC5B
-[21:24:16.246] RESOLVED               | incident=INC-6AC9BC5B unit=BCU1 responseTime=70860ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:24:23 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 70,86 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:25:29.257] SYSTEM_START           | SRUU simulation started
-[21:25:40.884] INCIDENT_RECEIVED      | INC-4C83CC25;STRUCTURAL_COLLAPSE;5;15;25;OPEN
-[21:25:40.937] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-4C83CC25
-[21:25:40.940] ASSIGNED               | incident=INC-4C83CC25 unit=FireTruck1 utilityScore=0,905
-[21:26:00.036] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-4C83CC25
-[21:26:00.038] RESOLVED               | incident=INC-4C83CC25 unit=FireTruck1 responseTime=19154ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:28:29 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 19,15 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:29:15 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 19,15 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:30:30.369] SYSTEM_START           | SRUU simulation started
-[21:30:39.883] INCIDENT_RECEIVED      | INC-440627C0;STRUCTURAL_COLLAPSE;1;90;20;OPEN
-[21:30:39.959] ASSIGNED               | incident=INC-440627C0 unit=FireTruck2 utilityScore=0,804
-[21:30:39.964] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-440627C0
-[21:31:24.180] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-440627C0
-[21:31:24.181] RESOLVED               | incident=INC-440627C0 unit=FireTruck2 responseTime=44298ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:33:30 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 44,30 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:33:33 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 44,30 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:35:44.379] SYSTEM_START           | SRUU simulation started
-[21:35:56.698] INCIDENT_RECEIVED      | INC-15284772;CRYOGENIC_LEAK;3;45;45;OPEN
-[21:35:56.757] UNIT_DISPATCHED        | unit=BCU1 incident=INC-15284772
-[21:35:56.761] ASSIGNED               | incident=INC-15284772 unit=BCU1 utilityScore=0,834
-[21:36:47.402] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-15284772
-[21:36:47.407] RESOLVED               | incident=INC-15284772 unit=BCU1 responseTime=50709ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Sun May 03 21:37:31 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 50,71 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:10:56.381] SYSTEM_START           | SRUU simulation started
-[01:11:06.016] INCIDENT_RECEIVED      | INC-461DBD9C;BIOHAZARD;6;15;25;OPEN
-[01:11:06.038] UNIT_DISPATCHED        | unit=BCU1 incident=INC-461DBD9C
-[01:11:06.041] ASSIGNED               | incident=INC-461DBD9C unit=BCU1 utilityScore=0,803
-[01:12:17.102] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-461DBD9C
-[01:12:17.104] RESOLVED               | incident=INC-461DBD9C unit=BCU1 responseTime=71089ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:13:34 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 71,09 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:16:27.993] SYSTEM_START           | SRUU simulation started
-[01:16:37.983] INCIDENT_RECEIVED      | INC-ADF7FCAF;STRUCTURAL_COLLAPSE;7;45;45;OPEN
-[01:16:38.043] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-ADF7FCAF
-[01:16:38.045] ASSIGNED               | incident=INC-ADF7FCAF unit=FireTruck2 utilityScore=0,925
-[01:16:46.760] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-ADF7FCAF
-[01:16:46.763] RESOLVED               | incident=INC-ADF7FCAF unit=FireTruck2 responseTime=8780ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:17:03 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 8,78 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:19:05.194] SYSTEM_START           | SRUU simulation started
-[01:19:15.609] INCIDENT_RECEIVED      | INC-AD5F1FE9;CRYOGENIC_LEAK;4;75;60;OPEN
-[01:19:15.661] UNIT_DISPATCHED        | unit=BCU1 incident=INC-AD5F1FE9
-[01:19:15.664] ASSIGNED               | incident=INC-AD5F1FE9 unit=BCU1 utilityScore=0,857
-[01:19:32.103] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-AD5F1FE9
-[01:19:32.104] RESOLVED               | incident=INC-AD5F1FE9 unit=BCU1 responseTime=16495ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:21:40 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 16,50 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:23:59.291] SYSTEM_START           | SRUU simulation started
-[01:24:12.078] INCIDENT_RECEIVED      | INC-DF7CBC70;BIOHAZARD;1;90;20;OPEN
-[01:24:12.147] UNIT_DISPATCHED        | unit=BCU1 incident=INC-DF7CBC70
-[01:24:12.149] ASSIGNED               | incident=INC-DF7CBC70 unit=BCU1 utilityScore=0,739
-[01:24:29.760] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-DF7CBC70
-[01:24:29.762] RESOLVED               | incident=INC-DF7CBC70 unit=BCU1 responseTime=17684ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:26:41 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 17,68 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:27:31.624] SYSTEM_START           | SRUU simulation started
-[01:27:42.790] INCIDENT_RECEIVED      | INC-FCD4CDBD;CRYOGENIC_LEAK;2;15;25;OPEN
-[01:27:42.863] UNIT_DISPATCHED        | unit=BCU1 incident=INC-FCD4CDBD
-[01:27:42.866] ASSIGNED               | incident=INC-FCD4CDBD unit=BCU1 utilityScore=0,763
-[01:27:59.344] OPERATION_COMPLETE     | DECONTAMINATION_COMPLETE:BCU1;INC-FCD4CDBD
-[01:27:59.346] RESOLVED               | incident=INC-FCD4CDBD unit=BCU1 responseTime=16557ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:28:29 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 16,56 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:29:28.251] SYSTEM_START           | SRUU simulation started
-[01:29:42.249] INCIDENT_RECEIVED      | INC-06441387;FIRE;10;15;25;OPEN
-[01:29:42.302] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-06441387
-[01:29:42.304] ASSIGNED               | incident=INC-06441387 unit=FireTruck1 utilityScore=0,955
-[01:29:46.095] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-06441387
-[01:29:46.099] RESOLVED               | incident=INC-06441387 unit=FireTruck1 responseTime=3850ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:30:38 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 3,85 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:32:39.208] SYSTEM_START           | SRUU simulation started
-[01:32:49.817] INCIDENT_RECEIVED      | INC-17DCF5F7;FIRE;3;15;25;OPEN
-[01:32:50.261] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-17DCF5F7
-[01:32:50.262] ASSIGNED               | incident=INC-17DCF5F7 unit=FireTruck1 utilityScore=0,885
-[01:32:54.051] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-17DCF5F7
-[01:32:54.054] RESOLVED               | incident=INC-17DCF5F7 unit=FireTruck1 responseTime=4237ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:33:59 CEST 2026
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 4,24 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:34:34.854] SYSTEM_START           | SRUU simulation started
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:34:44 CEST 2026
-Incidents détectés    : 0
-Incidents résolus     : 0
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 0,00 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[01:36:42.999] SYSTEM_START           | SRUU simulation started
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date       : Mon May 04 01:36:54 CEST 2026
-Incidents détectés    : 0
-Incidents résolus     : 0
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Temps de réponse moyen: 0,00 secondes
-
-Incidents non résolus:
-
-Abandoms:
-========================================
-
-[21:22:41.148] SYSTEM_START           | SRUU simulation started
-[21:22:51.666] INCIDENT_RECEIVED      | id=INC-630D733B type=STRUCTURAL_COLLAPSE
-[21:22:51.863] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-630D733B
-[21:22:51.866] ASSIGNED               | incident=INC-630D733B unit=FireTruck2 utilityScore=0,928
-[21:22:55.821] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-630D733B
-[21:25:17.346] SYSTEM_START           | SRUU simulation started
-[21:25:26.907] INCIDENT_RECEIVED      | id=INC-72840A7C type=STRUCTURAL_COLLAPSE
-[21:25:27.110] UNIT_DISPATCHED        | unit=FireTruck1 incident=INC-72840A7C
-[21:25:27.116] ASSIGNED               | incident=INC-72840A7C unit=FireTruck1 utilityScore=0,839
-[21:25:36.192] EVENT                  | FIRE_EXTINGUISHED:FireTruck1;INC-72840A7C
-[21:25:36.194] RESOLVED               | incident=INC-72840A7C unit=FireTruck1 responseTime=9287ms
-[21:26:33.643] SYSTEM_START           | SRUU simulation started
-[21:26:47.210] INCIDENT_RECEIVED      | id=INC-49C45ED9 type=FIRE
-[21:26:47.369] UNIT_DISPATCHED        | unit=Police2 incident=INC-49C45ED9
-[21:26:47.373] ASSIGNED               | incident=INC-49C45ED9 unit=Police2 utilityScore=0,460
-[21:26:54.567] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-49C45ED9
-[21:28:38.708] SYSTEM_START           | SRUU simulation started
-[21:28:49.837] INCIDENT_RECEIVED      | id=INC-076FB998 type=STRUCTURAL_COLLAPSE
-[21:28:50.530] UNIT_DISPATCHED        | unit=Police2 incident=INC-076FB998
-[21:28:50.548] ASSIGNED               | incident=INC-076FB998 unit=Police2 utilityScore=0,597
-[21:28:53.434] OPERATION_COMPLETE     | PERIMETER_SECURED:Police2;INC-076FB998
-[21:28:53.437] RESOLVED               | incident=INC-076FB998 unit=Police2 responseTime=3600ms
-[23:58:45.996] SYSTEM_START           | SRUU simulation started
-[23:58:55.562] INCIDENT_RECEIVED      | id=INC-0B71E37D type=FIRE
-[23:58:55.680] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-0B71E37D
-[23:58:55.685] ASSIGNED               | incident=INC-0B71E37D unit=FireTruck2 utilityScore=0,915
-[23:58:59.639] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-0B71E37D
-[23:58:59.641] RESOLVED               | incident=INC-0B71E37D unit=FireTruck2 responseTime=4079ms
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date de génération   : 2026-05-06 00:01:46
-Durée de simulation  : 3 minutes
-
---- STATISTIQUES GLOBALES ---
-Incidents détectés    : 1
-Incidents résolus     : 1
-Incidents non résolus : 0
-Incidents abandonnés  : 0
-Taux de résolution    : 100,0%
-Temps de réponse moyen: 4,08 secondes
-
---- STATISTIQUES PAR TYPE D'INCIDENT ---
-FIRE                : 1 incidents
-
---- STATISTIQUES PAR UNITÉ D'INTERVENTION ---
-FireTruck2     : 1 interventions
-
---- INCIDENTS NON RÉSOLUS ---
-Aucun incident non résolu
-
---- INCIDENTS ABANDONNÉS ---
-Aucun incident abandonné
-========================================
-
-[00:04:06.983] SYSTEM_START           | SRUU simulation started
-[00:04:16.800] INCIDENT_RECEIVED      | id=INC-835B647A type=FIRE
-[00:04:16.966] UNIT_DISPATCHED        | unit=FireTruck2 incident=INC-835B647A
-[00:04:16.975] ASSIGNED               | incident=INC-835B647A unit=FireTruck2 utilityScore=0,915
-[00:04:20.905] EVENT                  | FIRE_EXTINGUISHED:FireTruck2;INC-835B647A
-
-========================================
-    SRUU — RAPPORT FINAL DE SIMULATION
-========================================
-Date de génération   : 2026-05-06 00:07:07
-Durée de simulation  : 3 minutes
-
---- STATISTIQUES GLOBALES ---
-Incidents détectés    : 1
-Incidents résolus     : 0
-Incidents non résolus : 1
-Incidents abandonnés  : 0
-Taux de résolution    : 0,0%
-Temps de réponse moyen: 0,00 secondes
-
---- STATISTIQUES PAR TYPE D'INCIDENT ---
-
---- STATISTIQUES PAR UNITÉ D'INTERVENTION ---
-
---- INCIDENTS NON RÉSOLUS ---
-- INC-835B647A (type: FIRE)
-
---- INCIDENTS ABANDONNÉS ---
-Aucun incident abandonné
-========================================
-
+SYSTEM_START:Wed May 06 03:28:54 CEST 2026
+SYSTEM_SHUTDOWN:Wed May 06 03:30:43 CEST 2026
+SYSTEM_START:Wed May 06 03:37:10 CEST 2026
+SYSTEM_SHUTDOWN:Wed May 06 03:38:57 CEST 2026
+SYSTEM_START:Wed May 06 03:40:51 CEST 2026
+03:41:00.655 | INCIDENT_RECEIVED:INC-47AD4E;STRUCTURAL_COLLAPSE;3;15;25;OPEN
+03:41:00.662 | INCIDENT_REPORT:INC-47AD4E:STRUCTURAL_COLLAPSE:3:15:25:OPEN
+03:41:00.663 | INCIDENT_REPORT:INC-8625EC:FIRE:2:45:45:OPEN
+03:41:00.663 | INCIDENT_REPORT:INC-B47214:STRUCTURAL_COLLAPSE:1:90:20:OPEN
+03:41:00.671 | NO_UNITS:INC-47AD4E;STRUCTURAL_COLLAPSE;3;15;25;OPEN
+03:41:00.672 | INCIDENT_RECEIVED:INC-8625EC;FIRE;2;45;45;OPEN
+03:41:00.675 | NO_UNITS:INC-8625EC;FIRE;2;45;45;OPEN
+03:41:00.676 | INCIDENT_RECEIVED:INC-B47214;STRUCTURAL_COLLAPSE;1;90;20;OPEN
+03:41:00.683 | NO_UNITS:INC-B47214;STRUCTURAL_COLLAPSE;1;90;20;OPEN
+03:41:08.678 | INCIDENT_REPORT:INC-87B4:STRUCTURAL_COLLAPSE:8:45:45:OPEN
+03:41:08.679 | INCIDENT_RECEIVED:INC-87B4;STRUCTURAL_COLLAPSE;8;45;45;OPEN
+03:41:08.684 | NO_UNITS:INC-87B4;STRUCTURAL_COLLAPSE;8;45;45;OPEN
+03:41:16.692 | INCIDENT_REPORT:INC-95B272:FIRE:5:15:25:OPEN
+03:41:16.694 | INCIDENT_RECEIVED:INC-95B272;FIRE;5;15;25;OPEN
+03:41:16.694 | NO_UNITS:INC-95B272;FIRE;5;15;25;OPEN
+03:41:24.674 | INCIDENT_REPORT:INC-91068E:MEDICAL:7:75:60:OPEN
+03:41:24.676 | INCIDENT_RECEIVED:INC-91068E;MEDICAL;7;75;60;OPEN
+03:41:24.680 | NO_UNITS:INC-91068E;MEDICAL;7;75;60;OPEN
+03:41:32.723 | INCIDENT_REPORT:INC-D5B6F1:FIRE:9:45:45:OPEN
+03:41:32.724 | INCIDENT_REPORT:INC-26DB0:MEDICAL:1:90:20:OPEN
+03:41:32.724 | INCIDENT_RECEIVED:INC-26DB0;MEDICAL;1;90;20;OPEN
+03:41:32.724 | NO_UNITS:INC-26DB0;MEDICAL;1;90;20;OPEN
+03:41:32.724 | INCIDENT_RECEIVED:INC-D5B6F1;FIRE;9;45;45;OPEN
+03:41:32.724 | NO_UNITS:INC-D5B6F1;FIRE;9;45;45;OPEN
+03:41:56.751 | INCIDENT_REPORT:INC-1F0912:MEDICAL:3:90:20:OPEN
+03:41:56.751 | INCIDENT_RECEIVED:INC-1F0912;MEDICAL;3;90;20;OPEN
+03:41:56.751 | NO_UNITS:INC-1F0912;MEDICAL;3;90;20;OPEN
+03:41:56.767 | INCIDENT_REPORT:INC-FEB5E5:STRUCTURAL_COLLAPSE:5:15:25:OPEN
+03:41:56.767 | INCIDENT_REPORT:INC-DEC210:STRUCTURAL_COLLAPSE:6:45:45:OPEN
+03:41:56.767 | INCIDENT_RECEIVED:INC-FEB5E5;STRUCTURAL_COLLAPSE;5;15;25;OPEN
+03:41:56.767 | NO_UNITS:INC-FEB5E5;STRUCTURAL_COLLAPSE;5;15;25;OPEN
+03:41:56.767 | INCIDENT_RECEIVED:INC-DEC210;STRUCTURAL_COLLAPSE;6;45;45;OPEN
+03:41:56.767 | NO_UNITS:INC-DEC210;STRUCTURAL_COLLAPSE;6;45;45;OPEN
+03:42:04.781 | INCIDENT_REPORT:INC-7FBC8C:STRUCTURAL_COLLAPSE:6:45:45:OPEN
+03:42:04.782 | INCIDENT_RECEIVED:INC-7FBC8C;STRUCTURAL_COLLAPSE;6;45;45;OPEN
+03:42:04.788 | NO_UNITS:INC-7FBC8C;STRUCTURAL_COLLAPSE;6;45;45;OPEN
+03:42:20.813 | INCIDENT_REPORT:INC-AF8741:FIRE:1:15:25:OPEN
+03:42:20.814 | INCIDENT_RECEIVED:INC-AF8741;FIRE;1;15;25;OPEN
+03:42:20.818 | NO_UNITS:INC-AF8741;FIRE;1;15;25;OPEN
+03:42:28.804 | INCIDENT_REPORT:INC-92D36B:MEDICAL:8:90:20:OPEN
+03:42:28.805 | INCIDENT_RECEIVED:INC-92D36B;MEDICAL;8;90;20;OPEN
+03:42:28.806 | NO_UNITS:INC-92D36B;MEDICAL;8;90;20;OPEN
+03:42:44.809 | INCIDENT_REPORT:INC-FCFE95:FIRE:2:75:60:OPEN
+03:42:44.810 | INCIDENT_RECEIVED:INC-FCFE95;FIRE;2;75;60;OPEN
+03:42:44.813 | NO_UNITS:INC-FCFE95;FIRE;2;75;60;OPEN
+03:42:52.857 | INCIDENT_REPORT:INC-5249FD:STRUCTURAL_COLLAPSE:1:15:25:OPEN
+03:42:52.858 | INCIDENT_RECEIVED:INC-5249FD;STRUCTURAL_COLLAPSE;1;15;25;OPEN
+03:42:52.861 | NO_UNITS:INC-5249FD;STRUCTURAL_COLLAPSE;1;15;25;OPEN
+SYSTEM_SHUTDOWN:Wed May 06 03:42:55 CEST 2026
+SYSTEM_START:Wed May 06 03:46:35 CEST 2026
+03:46:44.587 | INCIDENT_RECEIVED:INC-8B8378;MEDICAL;7;45;45;OPEN
+03:46:44.589 | INCIDENT_REPORT:INC-43D5AD:FIRE:3:75:60:OPEN
+03:46:44.589 | INCIDENT_REPORT:INC-8B8378:MEDICAL:7:45:45:OPEN
+03:46:44.590 | NO_UNITS:INC-8B8378;MEDICAL;7;45;45;OPEN
+03:46:44.590 | INCIDENT_RECEIVED:INC-43D5AD;FIRE;3;75;60;OPEN
+03:46:44.598 | NO_UNITS:INC-43D5AD;FIRE;3;75;60;OPEN
+03:46:52.582 | INCIDENT_REPORT:INC-891FAC:STRUCTURAL_COLLAPSE:4:15:25:OPEN
+03:46:52.582 | INCIDENT_REPORT:INC-FC5EA7:STRUCTURAL_COLLAPSE:5:90:20:OPEN
+03:46:52.582 | INCIDENT_RECEIVED:INC-891FAC;STRUCTURAL_COLLAPSE;4;15;25;OPEN
+03:46:52.589 | NO_UNITS:INC-891FAC;STRUCTURAL_COLLAPSE;4;15;25;OPEN
+03:46:52.590 | INCIDENT_RECEIVED:INC-FC5EA7;STRUCTURAL_COLLAPSE;5;90;20;OPEN
+03:46:52.594 | NO_UNITS:INC-FC5EA7;STRUCTURAL_COLLAPSE;5;90;20;OPEN
+03:47:00.599 | INCIDENT_REPORT:INC-F4E390:FIRE:5:75:60:OPEN
+03:47:00.599 | INCIDENT_REPORT:INC-A8F763:MEDICAL:6:15:25:OPEN
+03:47:00.600 | INCIDENT_RECEIVED:INC-A8F763;MEDICAL;6;15;25;OPEN
+03:47:00.603 | NO_UNITS:INC-A8F763;MEDICAL;6;15;25;OPEN
+03:47:00.603 | INCIDENT_RECEIVED:INC-F4E390;FIRE;5;75;60;OPEN
+03:47:00.605 | NO_UNITS:INC-F4E390;FIRE;5;75;60;OPEN
+03:47:08.599 | INCIDENT_REPORT:INC-2BC1E0:STRUCTURAL_COLLAPSE:7:90:20:OPEN
+03:47:08.600 | INCIDENT_RECEIVED:INC-2BC1E0;STRUCTURAL_COLLAPSE;7;90;20;OPEN
+03:47:08.602 | NO_UNITS:INC-2BC1E0;STRUCTURAL_COLLAPSE;7;90;20;OPEN
+03:47:08.616 | INCIDENT_REPORT:INC-B2529B:STRUCTURAL_COLLAPSE:1:75:60:OPEN
+03:47:08.617 | INCIDENT_RECEIVED:INC-B2529B;STRUCTURAL_COLLAPSE;1;75;60;OPEN
+03:47:08.620 | NO_UNITS:INC-B2529B;STRUCTURAL_COLLAPSE;1;75;60;OPEN
+03:47:16.631 | INCIDENT_REPORT:INC-B06A5D:FIRE:2:15:25:OPEN
+03:47:16.632 | INCIDENT_RECEIVED:INC-B06A5D;FIRE;2;15;25;OPEN
+03:47:16.634 | NO_UNITS:INC-B06A5D;FIRE;2;15;25;OPEN
+03:47:32.660 | INCIDENT_REPORT:INC-B23512:STRUCTURAL_COLLAPSE:5:75:60:OPEN
+03:47:32.663 | INCIDENT_RECEIVED:INC-B23512;STRUCTURAL_COLLAPSE;5;75;60;OPEN
+03:47:32.687 | NO_UNITS:INC-B23512;STRUCTURAL_COLLAPSE;5;75;60;OPEN
+03:47:40.657 | INCIDENT_REPORT:INC-736F99:MEDICAL:4:90:20:OPEN
+03:47:40.657 | INCIDENT_RECEIVED:INC-736F99;MEDICAL;4;90;20;OPEN
+03:47:40.657 | NO_UNITS:INC-736F99;MEDICAL;4;90;20;OPEN
+03:47:48.685 | INCIDENT_REPORT:INC-F048FC:STRUCTURAL_COLLAPSE:7:15:25:OPEN
+03:47:48.685 | INCIDENT_RECEIVED:INC-F048FC;STRUCTURAL_COLLAPSE;7;15;25;OPEN
+03:47:48.688 | NO_UNITS:INC-F048FC;STRUCTURAL_COLLAPSE;7;15;25;OPEN
+03:48:04.673 | INCIDENT_REPORT:INC-FE4CDC:MEDICAL:2:90:20:OPEN
+03:48:04.676 | INCIDENT_RECEIVED:INC-FE4CDC;MEDICAL;2;90;20;OPEN
+03:48:04.678 | NO_UNITS:INC-FE4CDC;MEDICAL;2;90;20;OPEN
+SYSTEM_SHUTDOWN:Wed May 06 03:48:13 CEST 2026
+SYSTEM_START:Wed May 06 03:50:04 CEST 2026
+03:50:13.593 | INCIDENT_RECEIVED:INC-DDC38F;STRUCTURAL_COLLAPSE;7;45;45;OPEN
+03:50:13.610 | INCIDENT_REPORT:INC-3E17EC:FIRE:7:75:60:OPEN
+03:50:13.610 | INCIDENT_REPORT:INC-C6EF93:STRUCTURAL_COLLAPSE:4:90:20:OPEN
+03:50:13.611 | INCIDENT_REPORT:INC-DDC38F:STRUCTURAL_COLLAPSE:7:45:45:OPEN
+03:50:13.619 | INCIDENT_RECEIVED:INC-C6EF93;STRUCTURAL_COLLAPSE;4;90;20;OPEN
+03:50:13.625 | INCIDENT_RECEIVED:INC-3E17EC;FIRE;7;75;60;OPEN
+03:50:21.626 | INCIDENT_REPORT:INC-B21E36:MEDICAL:2:75:60:OPEN
+03:50:29.621 | INCIDENT_REPORT:INC-5CB394:STRUCTURAL_COLLAPSE:9:15:25:OPEN
+03:50:37.638 | INCIDENT_REPORT:INC-F60EA2:MEDICAL:6:15:25:OPEN
+03:50:37.654 | INCIDENT_REPORT:INC-476625:STRUCTURAL_COLLAPSE:9:90:20:OPEN
+03:50:37.654 | INCIDENT_REPORT:INC-FCC141:STRUCTURAL_COLLAPSE:5:45:45:OPEN
+03:50:37.654 | INCIDENT_REPORT:INC-CA1471:FIRE:7:75:60:OPEN
+03:50:53.683 | INCIDENT_REPORT:INC-3419D0:STRUCTURAL_COLLAPSE:9:90:20:OPEN
+03:50:53.684 | INCIDENT_REPORT:INC-A4F82B:STRUCTURAL_COLLAPSE:3:75:60:OPEN
+03:51:01.696 | INCIDENT_REPORT:INC-A077D:FIRE:8:90:20:OPEN
+03:51:09.704 | INCIDENT_REPORT:INC-207438:STRUCTURAL_COLLAPSE:9:45:45:OPEN
+03:51:17.710 | INCIDENT_REPORT:INC-95D83D:STRUCTURAL_COLLAPSE:2:75:60:OPEN
+03:51:25.726 | INCIDENT_REPORT:INC-88F56D:FIRE:3:90:20:OPEN
+03:51:49.737 | INCIDENT_REPORT:INC-E65412:STRUCTURAL_COLLAPSE:8:15:25:OPEN
+03:51:57.752 | INCIDENT_REPORT:INC-2CEF12:FIRE:1:15:25:OPEN
+03:52:05.770 | INCIDENT_REPORT:INC-331278:FIRE:5:45:45:OPEN
+03:52:13.784 | INCIDENT_REPORT:INC-968C3:FIRE:1:15:25:OPEN
+03:52:13.784 | INCIDENT_REPORT:INC-A12788:FIRE:6:45:45:OPEN
+SYSTEM_SHUTDOWN:Wed May 06 03:52:27 CEST 2026
+SYSTEM_START:Wed May 06 03:58:30 CEST 2026
+03:58:39.894 | INCIDENT_RECEIVED:INC-BF46D6;MEDICAL;6;90;20;OPEN
+03:58:39.896 | INCIDENT_REPORT:INC-BF46D6:MEDICAL:6:90:20:OPEN
+03:58:39.897 | INCIDENT_REPORT:INC-D480A4:FIRE:2:75:60:OPEN
+03:58:39.903 | INCIDENT_RECEIVED:INC-D480A4;FIRE;2;75;60;OPEN
+03:58:55.902 | INCIDENT_REPORT:INC-C11E52:STRUCTURAL_COLLAPSE:6:45:45:OPEN
+03:58:55.902 | INCIDENT_REPORT:INC-98EE2E:FIRE:6:90:20:OPEN
+03:59:03.896 | INCIDENT_REPORT:INC-C15E68:STRUCTURAL_COLLAPSE:3:15:25:OPEN
+03:59:11.930 | INCIDENT_REPORT:INC-1A435E:MEDICAL:2:75:60:OPEN
+03:59:19.942 | INCIDENT_REPORT:INC-EB6BD3:MEDICAL:2:90:20:OPEN
+03:59:27.945 | INCIDENT_REPORT:INC-6CA028:STRUCTURAL_COLLAPSE:10:45:45:OPEN
+03:59:27.947 | INCIDENT_REPORT:INC-966330:FIRE:7:15:25:OPEN
+03:59:35.948 | INCIDENT_REPORT:INC-C44C95:STRUCTURAL_COLLAPSE:9:15:25:OPEN
+03:59:35.951 | INCIDENT_REPORT:INC-F1C3C2:MEDICAL:5:45:45:OPEN
+03:59:43.955 | INCIDENT_REPORT:INC-43CEFC:FIRE:10:15:25:OPEN
+03:59:43.955 | INCIDENT_REPORT:INC-E670E4:STRUCTURAL_COLLAPSE:4:45:45:OPEN
+03:59:51.974 | INCIDENT_REPORT:INC-B888D9:FIRE:5:90:20:OPEN
+SYSTEM_SHUTDOWN:Wed May 06 03:59:58 CEST 2026
+SYSTEM_START:Wed May 06 04:03:33 CEST 2026
+04:03:43.059 | INCIDENT_RECEIVED:INC-31104A;FIRE;10;90;20;OPEN
+04:03:43.061 | INCIDENT_REPORT:INC-CF896D:MEDICAL:7:15:25:OPEN
+04:03:43.061 | INCIDENT_REPORT:INC-31104A:FIRE:10:90:20:OPEN
+04:03:43.061 | INCIDENT_REPORT:INC-86CF46:STRUCTURAL_COLLAPSE:1:45:45:OPEN
+04:03:43.070 | INCIDENT_RECEIVED:INC-86CF46;STRUCTURAL_COLLAPSE;1;45;45;OPEN
+04:03:43.081 | INCIDENT_RECEIVED:INC-CF896D;MEDICAL;7;15;25;OPEN
+04:03:43.105 | ASSIGNED:INC-86CF46;FireTruck2;0.375
+04:03:43.105 | ASSIGNED:INC-31104A;FireTruck1;0.40442392784392056
+04:03:43.111 | ASSIGNED:INC-CF896D;Ambulance1;0.508153415615735
+04:03:51.079 | INCIDENT_REPORT:INC-EEDB99:MEDICAL:8:15:25:OPEN
+04:03:51.081 | INCIDENT_RECEIVED:INC-EEDB99;MEDICAL;8;15;25;OPEN
+04:03:56.692 | ASSIGNED:INC-EEDB99;Ambulance2;0.518153415615735
+04:03:59.091 | INCIDENT_REPORT:INC-2C95E3:MEDICAL:3:90:20:OPEN
+04:03:59.091 | INCIDENT_REPORT:INC-E42C72:FIRE:1:45:45:OPEN
+04:03:59.092 | INCIDENT_RECEIVED:INC-2C95E3;MEDICAL;3;90;20;OPEN
+04:03:59.094 | INCIDENT_RECEIVED:INC-E42C72;FIRE;1;45;45;OPEN
+04:03:59.099 | ASSIGNED:INC-E42C72;FireTruck2;0.375
+04:04:04.694 | UNRESOLVED:INC-2C95E3;MEDICAL;3;90;20;OPEN
+04:04:15.106 | INCIDENT_REPORT:INC-6FBFF:STRUCTURAL_COLLAPSE:5:15:25:OPEN
+04:04:15.107 | INCIDENT_RECEIVED:INC-6FBFF;STRUCTURAL_COLLAPSE;5;15;25;OPEN
+04:04:15.112 | ASSIGNED:INC-6FBFF;FireTruck1;0.48815341561573505
+04:04:23.105 | INCIDENT_REPORT:INC-F8DA5F:STRUCTURAL_COLLAPSE:4:75:60:OPEN
+04:04:23.106 | INCIDENT_RECEIVED:INC-F8DA5F;STRUCTURAL_COLLAPSE;4;75;60;OPEN
+04:04:23.109 | ASSIGNED:INC-F8DA5F;FireTruck1;0.33625383439190815
+04:04:23.122 | INCIDENT_REPORT:INC-CD8E18:STRUCTURAL_COLLAPSE:7:45:45:OPEN
+04:04:23.123 | INCIDENT_RECEIVED:INC-CD8E18;STRUCTURAL_COLLAPSE;7;45;45;OPEN
+04:04:23.128 | ASSIGNED:INC-CD8E18;FireTruck1;0.435
+04:04:31.123 | INCIDENT_REPORT:INC-AE810E:FIRE:1:90:20:OPEN
+04:04:31.124 | INCIDENT_RECEIVED:INC-AE810E;FIRE;1;90;20;OPEN
+04:04:31.128 | ASSIGNED:INC-AE810E;FireTruck1;0.31442392784392054
+04:04:31.137 | INCIDENT_REPORT:INC-8EB207:STRUCTURAL_COLLAPSE:4:45:45:OPEN
+04:04:31.138 | INCIDENT_RECEIVED:INC-8EB207;STRUCTURAL_COLLAPSE;4;45;45;OPEN
+04:04:31.138 | ASSIGNED:INC-8EB207;FireTruck2;0.405
+04:04:39.133 | INCIDENT_REPORT:INC-39B5CB:MEDICAL:7:90:20:OPEN
+04:04:39.134 | INCIDENT_RECEIVED:INC-39B5CB;MEDICAL;7;90;20;OPEN
+04:04:44.768 | UNRESOLVED:INC-39B5CB;MEDICAL;7;90;20;OPEN
+04:05:11.179 | INCIDENT_REPORT:INC-B19D04:STRUCTURAL_COLLAPSE:7:15:25:OPEN
+04:05:11.180 | INCIDENT_RECEIVED:INC-B19D04;STRUCTURAL_COLLAPSE;7;15;25;OPEN
+04:05:11.180 | ASSIGNED:INC-B19D04;FireTruck2;0.508153415615735
+04:05:19.168 | INCIDENT_REPORT:INC-246DFA:FIRE:3:75:60:OPEN
+04:05:19.169 | INCIDENT_RECEIVED:INC-246DFA;FIRE;3;75;60;OPEN
+04:05:19.174 | ASSIGNED:INC-246DFA;FireTruck1;0.32625383439190814
+04:05:35.185 | INCIDENT_REPORT:INC-14CB88:MEDICAL:3:75:60:OPEN
+04:05:35.186 | INCIDENT_RECEIVED:INC-14CB88;MEDICAL;3;75;60;OPEN
+04:05:35.196 | INCIDENT_REPORT:INC-B6E720:FIRE:10:90:20:OPEN
+04:05:35.196 | INCIDENT_REPORT:INC-362C9A:STRUCTURAL_COLLAPSE:4:15:25:OPEN
+04:05:35.196 | INCIDENT_RECEIVED:INC-B6E720;FIRE;10;90;20;OPEN
+04:05:35.198 | INCIDENT_RECEIVED:INC-362C9A;STRUCTURAL_COLLAPSE;4;15;25;OPEN
+04:05:35.205 | ASSIGNED:INC-B6E720;FireTruck1;0.40442392784392056
+04:05:35.205 | ASSIGNED:INC-362C9A;FireTruck1;0.4781534156157351
+04:05:40.806 | UNRESOLVED:INC-14CB88;MEDICAL;3;75;60;OPEN
+04:05:43.240 | INCIDENT_REPORT:INC-F16E95:MEDICAL:10:45:45:OPEN
+04:05:43.241 | INCIDENT_RECEIVED:INC-F16E95;MEDICAL;10;45;45;OPEN
+04:05:48.852 | UNRESOLVED:INC-F16E95;MEDICAL;10;45;45;OPEN
+04:05:59.207 | INCIDENT_REPORT:INC-B0ACAA:STRUCTURAL_COLLAPSE:2:75:60:OPEN
+04:05:59.207 | INCIDENT_RECEIVED:INC-B0ACAA;STRUCTURAL_COLLAPSE;2;75;60;OPEN
+04:05:59.213 | ASSIGNED:INC-B0ACAA;FireTruck1;0.3162538343919082
+04:06:23.231 | INCIDENT_REPORT:INC-C8B64E:MEDICAL:4:75:60:OPEN
+04:06:23.233 | INCIDENT_RECEIVED:INC-C8B64E;MEDICAL;4;75;60;OPEN
+04:06:28.881 | UNRESOLVED:INC-C8B64E;MEDICAL;4;75;60;OPEN
+SYSTEM_SHUTDOWN:Wed May 06 04:06:34 CEST 2026
+SYSTEM_START:Wed May 06 04:11:17 CEST 2026
+04:11:34.676 | INCIDENT_RECEIVED:INC-53D1C5;FIRE;5;45;45;OPEN
+04:11:34.678 | INCIDENT_REPORT:INC-5E16A4:MEDICAL:6:75:60:OPEN
+04:11:34.678 | INCIDENT_REPORT:INC-53D1C5:FIRE:5:45:45:OPEN
+04:11:34.718 | INCIDENT_RECEIVED:INC-5E16A4;MEDICAL;6;75;60;OPEN
+04:11:34.750 | ASSIGNED:INC-53D1C5;FireTruck1;0.415
+04:11:34.753 | ASSIGNED:INC-5E16A4;Ambulance2;0.35625383439190816
+04:11:42.687 | INCIDENT_REPORT:INC-114D06:MEDICAL:8:75:60:OPEN
+04:11:42.688 | INCIDENT_RECEIVED:INC-114D06;MEDICAL;8;75;60;OPEN
+04:11:42.693 | ASSIGNED:INC-114D06;Ambulance1;0.3762538343919082
+SYSTEM_SHUTDOWN:Wed May 06 04:11:47 CEST 2026
+SYSTEM_START:Wed May 06 04:18:34 CEST 2026
+04:18:43.839 | INCIDENT_RECEIVED:INC-5F78E0;FIRE;2;15;25;OPEN
+04:18:43.839 | INCIDENT_REPORT:INC-5F78E0:FIRE:2:15:25:OPEN
+04:18:43.869 | ASSIGNED:INC-5F78E0;FireTruck2;0.4581534156157351
+04:18:51.850 | INCIDENT_REPORT:INC-C016B0:MEDICAL:8:90:20:OPEN
+04:18:51.851 | INCIDENT_RECEIVED:INC-C016B0;MEDICAL;8;90;20;OPEN
+04:18:51.872 | ASSIGNED:INC-C016B0;Ambulance1;0.38442392784392054
+SYSTEM_SHUTDOWN:Wed May 06 04:19:04 CEST 2026
+SYSTEM_START:Wed May 06 04:20:02 CEST 2026
+04:20:11.355 | INCIDENT_RECEIVED:INC-40F100;FIRE;9;75;60;OPEN
+04:20:11.358 | INCIDENT_REPORT:INC-40F100:FIRE:9:75:60:OPEN
+04:20:11.358 | INCIDENT_REPORT:INC-F0F0FD:MEDICAL:1:45:45:OPEN
+04:20:11.365 | INCIDENT_RECEIVED:INC-F0F0FD;MEDICAL;1;45;45;OPEN
+04:20:11.388 | ASSIGNED:INC-40F100;FireTruck2;0.3862538343919082
+04:20:11.390 | ASSIGNED:INC-F0F0FD;Ambulance2;0.375
+04:20:19.348 | INCIDENT_REPORT:INC-2B29D7:FIRE:1:90:20:OPEN
+04:20:19.351 | INCIDENT_RECEIVED:INC-2B29D7;FIRE;1;90;20;OPEN
+04:20:19.367 | ASSIGNED:INC-2B29D7;FireTruck1;0.31442392784392054
+SYSTEM_SHUTDOWN:Wed May 06 04:20:32 CEST 2026
+SYSTEM_START:Wed May 06 04:26:36 CEST 2026
+04:26:45.996 | INCIDENT_RECEIVED:INC-EE5B74;MEDICAL;7;15;25;OPEN
+04:26:45.999 | INCIDENT_REPORT:INC-52626F:FIRE:1:75:60:OPEN
+04:26:45.999 | INCIDENT_REPORT:INC-EE5B74:MEDICAL:7:15:25:OPEN
+04:26:46.010 | INCIDENT_RECEIVED:INC-52626F;FIRE;1;75;60;OPEN
+04:26:46.038 | ASSIGNED:INC-EE5B74;Ambulance1;0.508153415615735
+04:26:46.040 | ASSIGNED:INC-52626F;FireTruck1;0.3062538343919082
+04:26:53.985 | INCIDENT_REPORT:INC-FE3309:FIRE:7:45:45:OPEN
+04:26:53.987 | INCIDENT_RECEIVED:INC-FE3309;FIRE;7;45;45;OPEN
+04:26:53.991 | ASSIGNED:INC-FE3309;FireTruck1;0.435
+04:27:09.988 | INCIDENT_REPORT:INC-76874B:FIRE:1:45:45:OPEN
+04:27:09.989 | INCIDENT_RECEIVED:INC-76874B;FIRE;1;45;45;OPEN
+04:27:09.993 | ASSIGNED:INC-76874B;FireTruck1;0.375
+04:27:10.005 | INCIDENT_REPORT:INC-7E8583:STRUCTURAL_COLLAPSE:4:15:25:OPEN
+04:27:10.006 | INCIDENT_RECEIVED:INC-7E8583;STRUCTURAL_COLLAPSE;4;15;25;OPEN
+04:27:10.011 | ASSIGNED:INC-7E8583;FireTruck1;0.4781534156157351
+04:27:17.989 | INCIDENT_REPORT:INC-9A27BE:MEDICAL:4:45:45:OPEN
+04:27:17.991 | INCIDENT_RECEIVED:INC-9A27BE;MEDICAL;4;45;45;OPEN
+04:27:18.006 | INCIDENT_REPORT:INC-4C51B0:STRUCTURAL_COLLAPSE:6:75:60:OPEN
+04:27:18.007 | INCIDENT_RECEIVED:INC-4C51B0;STRUCTURAL_COLLAPSE;6;75;60;OPEN
+04:27:18.013 | ASSIGNED:INC-4C51B0;FireTruck2;0.35625383439190816
+04:27:23.534 | ASSIGNED:INC-9A27BE;Ambulance2;0.405
+04:27:34.006 | INCIDENT_REPORT:INC-392C23:STRUCTURAL_COLLAPSE:5:90:20:OPEN
+04:27:34.007 | INCIDENT_RECEIVED:INC-392C23;STRUCTURAL_COLLAPSE;5;90;20;OPEN
+04:27:34.009 | ASSIGNED:INC-392C23;FireTruck2;0.3544239278439205
+SYSTEM_SHUTDOWN:Wed May 06 04:27:36 CEST 2026
+SYSTEM_START:Wed May 06 04:32:28 CEST 2026
+04:32:37.204 | INCIDENT_RECEIVED:INC-D4D3D6;STRUCTURAL_COLLAPSE;8;90;20;OPEN
+04:32:37.207 | INCIDENT_REPORT:INC-D4D3D6:STRUCTURAL_COLLAPSE:8:90:20:OPEN
+04:32:37.235 | ASSIGNED:INC-D4D3D6;FireTruck1;0.38442392784392054
+04:32:45.193 | INCIDENT_REPORT:INC-1ED998:STRUCTURAL_COLLAPSE:8:75:60:OPEN
+04:32:45.194 | INCIDENT_RECEIVED:INC-1ED998;STRUCTURAL_COLLAPSE;8;75;60;OPEN
+04:32:45.198 | ASSIGNED:INC-1ED998;FireTruck2;0.3762538343919082
+04:32:45.208 | INCIDENT_REPORT:INC-849AD5:FIRE:2:90:20:OPEN
+04:32:45.209 | INCIDENT_RECEIVED:INC-849AD5;FIRE;2;90;20;OPEN
+04:32:45.215 | ASSIGNED:INC-849AD5;FireTruck2;0.32442392784392055
+04:32:53.192 | INCIDENT_REPORT:INC-F6710C:MEDICAL:1:45:45:OPEN
+04:32:53.193 | INCIDENT_RECEIVED:INC-F6710C;MEDICAL;1;45;45;OPEN
+04:32:53.194 | INCIDENT_REPORT:INC-5F603D:MEDICAL:6:75:60:OPEN
+04:32:53.196 | INCIDENT_RECEIVED:INC-5F603D;MEDICAL;6;75;60;OPEN
+04:32:53.210 | ASSIGNED:INC-F6710C;Ambulance2;0.375
+04:32:53.212 | ASSIGNED:INC-5F603D;Ambulance1;0.35625383439190816
+04:33:09.201 | INCIDENT_REPORT:INC-34C6EF:FIRE:5:75:60:OPEN
+04:33:09.203 | INCIDENT_RECEIVED:INC-34C6EF;FIRE;5;75;60;OPEN
+04:33:09.208 | ASSIGNED:INC-34C6EF;FireTruck1;0.34625383439190816
+04:33:17.203 | INCIDENT_REPORT:INC-B25E73:FIRE:5:75:60:OPEN
+04:33:17.204 | INCIDENT_RECEIVED:INC-B25E73;FIRE;5;75;60;OPEN
+04:33:17.210 | ASSIGNED:INC-B25E73;FireTruck2;0.34625383439190816
+04:33:25.205 | INCIDENT_REPORT:INC-14C5B7:MEDICAL:6:75:60:OPEN
+04:33:25.207 | INCIDENT_RECEIVED:INC-14C5B7;MEDICAL;6;75;60;OPEN
+04:33:25.213 | INCIDENT_REPORT:INC-9BDA0C:STRUCTURAL_COLLAPSE:8:90:20:OPEN
+04:33:25.216 | INCIDENT_RECEIVED:INC-9BDA0C;STRUCTURAL_COLLAPSE;8;90;20;OPEN
+04:33:25.221 | ASSIGNED:INC-9BDA0C;FireTruck2;0.38442392784392054
+SYSTEM_SHUTDOWN:Wed May 06 04:33:28 CEST 2026
+SYSTEM_START:Wed May 06 04:38:52 CEST 2026
+04:39:01.606 | INCIDENT_RECEIVED:INC-191974;STRUCTURAL_COLLAPSE;10;75;60;OPEN
+04:39:01.608 | INCIDENT_REPORT:INC-191974:STRUCTURAL_COLLAPSE:10:75:60:OPEN
+04:39:01.634 | ASSIGNED:INC-191974;FireTruck2;0.3962538343919082
+04:39:09.595 | INCIDENT_REPORT:INC-4E9F59:FIRE:1:45:45:OPEN
+04:39:09.597 | INCIDENT_RECEIVED:INC-4E9F59;FIRE;1;45;45;OPEN
+04:39:09.597 | INCIDENT_REPORT:INC-7FD86E:FIRE:2:90:20:OPEN
+04:39:09.601 | INCIDENT_RECEIVED:INC-7FD86E;FIRE;2;90;20;OPEN
+04:39:09.606 | ASSIGNED:INC-4E9F59;FireTruck1;0.375
+04:39:09.607 | ASSIGNED:INC-7FD86E;FireTruck2;0.32442392784392055
+04:39:17.599 | INCIDENT_REPORT:INC-4B6BC2:MEDICAL:1:90:20:OPEN
+04:39:17.600 | INCIDENT_RECEIVED:INC-4B6BC2;MEDICAL;1;90;20;OPEN
+04:39:17.614 | ASSIGNED:INC-4B6BC2;Ambulance1;0.31442392784392054
+04:39:25.608 | INCIDENT_REPORT:INC-C1D053:FIRE:7:90:20:OPEN
+04:39:25.608 | INCIDENT_REPORT:INC-4295A6:MEDICAL:9:15:25:OPEN
+04:39:25.609 | INCIDENT_RECEIVED:INC-4295A6;MEDICAL;9;15;25;OPEN
+04:39:25.614 | INCIDENT_REPORT:INC-E9B52F:STRUCTURAL_COLLAPSE:6:75:60:OPEN
+04:39:25.614 | INCIDENT_RECEIVED:INC-C1D053;FIRE;7;90;20;OPEN
+04:39:25.618 | INCIDENT_RECEIVED:INC-E9B52F;STRUCTURAL_COLLAPSE;6;75;60;OPEN
+04:39:25.624 | ASSIGNED:INC-C1D053;FireTruck2;0.37442392784392053
+04:39:25.625 | ASSIGNED:INC-E9B52F;FireTruck1;0.35625383439190816
+04:39:31.146 | ASSIGNED:INC-4295A6;Ambulance2;0.528153415615735
+04:39:33.610 | INCIDENT_REPORT:INC-F41197:STRUCTURAL_COLLAPSE:6:45:45:OPEN
+04:39:33.611 | INCIDENT_RECEIVED:INC-F41197;STRUCTURAL_COLLAPSE;6;45;45;OPEN
+04:39:33.615 | ASSIGNED:INC-F41197;FireTruck1;0.425
+04:39:49.619 | INCIDENT_REPORT:INC-C041BC:FIRE:9:75:60:OPEN
+04:39:49.620 | INCIDENT_RECEIVED:INC-C041BC;FIRE;9;75;60;OPEN
+04:39:49.621 | ASSIGNED:INC-C041BC;FireTruck2;0.3862538343919082
+SYSTEM_SHUTDOWN:Wed May 06 04:39:52 CEST 2026
+SYSTEM_START:Wed May 06 04:51:46 CEST 2026
+04:51:55.950 | INCIDENT_RECEIVED:INC-C8DDE9;STRUCTURAL_COLLAPSE;3;75;60;OPEN
+04:51:55.954 | INCIDENT_REPORT:INC-C8DDE9:STRUCTURAL_COLLAPSE:3:75:60:OPEN
+04:51:55.986 | ASSIGNED:INC-C8DDE9;FireTruck1;0.32625383439190814
+04:52:03.957 | INCIDENT_REPORT:INC-221BB3:MEDICAL:2:75:60:OPEN
+04:52:03.957 | INCIDENT_RECEIVED:INC-221BB3;MEDICAL;2;75;60;OPEN
+04:52:03.973 | INCIDENT_REPORT:INC-1E0176:MEDICAL:5:90:20:OPEN
+04:52:03.973 | ASSIGNED:INC-221BB3;Ambulance2;0.3162538343919082
+04:52:03.975 | INCIDENT_RECEIVED:INC-1E0176;MEDICAL;5;90;20;OPEN
+04:52:03.977 | ASSIGNED:INC-1E0176;Ambulance1;0.3544239278439205
+04:52:11.971 | INCIDENT_REPORT:INC-8728B6:STRUCTURAL_COLLAPSE:4:75:60:OPEN
+04:52:11.973 | INCIDENT_RECEIVED:INC-8728B6;STRUCTURAL_COLLAPSE;4;75;60;OPEN
+04:52:11.974 | ASSIGNED:INC-8728B6;FireTruck2;0.33625383439190815
+04:52:11.987 | INCIDENT_REPORT:INC-59057E:FIRE:8:90:20:OPEN
+04:52:11.987 | INCIDENT_RECEIVED:INC-59057E;FIRE;8;90;20;OPEN
+04:52:11.992 | ASSIGNED:INC-59057E;FireTruck1;0.38442392784392054
+04:52:28.011 | INCIDENT_REPORT:INC-44468F:FIRE:9:15:25:OPEN
+04:52:28.011 | INCIDENT_REPORT:INC-D1C68B:STRUCTURAL_COLLAPSE:3:90:20:OPEN
+04:52:28.011 | INCIDENT_RECEIVED:INC-44468F;FIRE;9;15;25;OPEN
+04:52:28.016 | INCIDENT_RECEIVED:INC-D1C68B;STRUCTURAL_COLLAPSE;3;90;20;OPEN
+04:52:28.029 | ASSIGNED:INC-44468F;FireTruck1;0.528153415615735
+04:52:28.029 | ASSIGNED:INC-D1C68B;FireTruck2;0.3344239278439205
+04:52:44.032 | INCIDENT_REPORT:INC-9B59DA:MEDICAL:2:45:45:OPEN
+04:52:44.032 | INCIDENT_REPORT:INC-71F43A:MEDICAL:7:15:25:OPEN
+04:52:44.033 | INCIDENT_RECEIVED:INC-9B59DA;MEDICAL;2;45;45;OPEN
+04:52:44.034 | INCIDENT_RECEIVED:INC-71F43A;MEDICAL;7;15;25;OPEN
+SYSTEM_SHUTDOWN:Wed May 06 04:52:46 CEST 2026
+SYSTEM_START:Wed May 06 05:05:24 CEST 2026
+05:05:33.739 | INCIDENT_RECEIVED:INC-C82F5A;STRUCTURAL_COLLAPSE;9;15;25;OPEN
+05:05:33.741 | INCIDENT_REPORT:INC-C82F5A:STRUCTURAL_COLLAPSE:9:15:25:OPEN
+05:05:33.766 | ASSIGNED:INC-C82F5A;FireTruck2;0.528153415615735
+05:05:57.746 | INCIDENT_REPORT:INC-62AEE1:FIRE:5:75:60:OPEN
+05:05:57.746 | INCIDENT_RECEIVED:INC-62AEE1;FIRE;5;75;60;OPEN
+05:05:57.753 | ASSIGNED:INC-62AEE1;FireTruck1;0.34625383439190816
+05:06:05.761 | INCIDENT_REPORT:INC-A18AA0:FIRE:3:75:60:OPEN
+05:06:05.762 | INCIDENT_RECEIVED:INC-A18AA0;FIRE;3;75;60;OPEN
+05:06:05.767 | ASSIGNED:INC-A18AA0;FireTruck2;0.32625383439190814
+05:06:21.811 | INCIDENT_REPORT:INC-154AAC:FIRE:7:15:25:OPEN
+05:06:21.813 | INCIDENT_RECEIVED:INC-154AAC;FIRE;7;15;25;OPEN
+05:06:21.817 | ASSIGNED:INC-154AAC;FireTruck2;0.508153415615735
+SYSTEM_SHUTDOWN:Wed May 06 05:06:24 CEST 2026
+SYSTEM_START:Wed May 06 05:07:18 CEST 2026
+05:07:28.022 | INCIDENT_RECEIVED:INC-F14F49;STRUCTURAL_COLLAPSE;3;75;60;OPEN
+05:07:28.022 | INCIDENT_REPORT:INC-F14F49:STRUCTURAL_COLLAPSE:3:75:60:OPEN
+05:07:28.056 | ASSIGNED:INC-F14F49;FireTruck1;0.32625383439190814
+05:07:36.025 | INCIDENT_REPORT:INC-D5C154:STRUCTURAL_COLLAPSE:1:45:45:OPEN
+05:07:36.025 | INCIDENT_RECEIVED:INC-D5C154;STRUCTURAL_COLLAPSE;1;45;45;OPEN
+05:07:36.029 | ASSIGNED:INC-D5C154;FireTruck2;0.375
+05:07:44.030 | INCIDENT_REPORT:INC-3E8264:STRUCTURAL_COLLAPSE:8:75:60:OPEN
+05:07:44.030 | INCIDENT_REPORT:INC-744B80:FIRE:8:45:45:OPEN
+05:07:44.031 | INCIDENT_RECEIVED:INC-744B80;FIRE;8;45;45;OPEN
+05:07:44.032 | INCIDENT_RECEIVED:INC-3E8264;STRUCTURAL_COLLAPSE;8;75;60;OPEN
+05:07:44.047 | ASSIGNED:INC-744B80;FireTruck1;0.445
+05:07:44.049 | ASSIGNED:INC-3E8264;FireTruck1;0.3762538343919082
+05:07:52.048 | INCIDENT_REPORT:INC-FB8771:STRUCTURAL_COLLAPSE:2:75:60:OPEN
+05:07:52.048 | INCIDENT_RECEIVED:INC-FB8771;STRUCTURAL_COLLAPSE;2;75;60;OPEN
+05:07:52.064 | ASSIGNED:INC-FB8771;FireTruck2;0.3162538343919082
+05:08:00.062 | INCIDENT_REPORT:INC-7958C8:MEDICAL:3:75:60:OPEN
+05:08:00.062 | INCIDENT_RECEIVED:INC-7958C8;MEDICAL;3;75;60;OPEN
+05:08:00.075 | ASSIGNED:INC-7958C8;Ambulance1;0.32625383439190814
+05:08:16.065 | INCIDENT_REPORT:INC-C8892C:FIRE:3:15:25:OPEN
+05:08:16.065 | INCIDENT_RECEIVED:INC-C8892C;FIRE;3;15;25;OPEN
+05:08:16.065 | ASSIGNED:INC-C8892C;FireTruck1;0.4681534156157351
+SYSTEM_SHUTDOWN:Wed May 06 05:08:18 CEST 2026
+SYSTEM_START:Wed May 06 11:56:34 CEST 2026
+11:56:44.081 | INCIDENT_RECEIVED:INC-9BE6EF;MEDICAL;2;15;25;OPEN
+11:56:44.137 | INCIDENT_REPORT:INC-9BE6EF:MEDICAL:2:15:25:OPEN
+11:56:44.137 | INCIDENT_REPORT:INC-D37E62:FIRE:7:75:60:OPEN
+11:56:44.137 | INCIDENT_RECEIVED:INC-D37E62;FIRE;7;75;60;OPEN
+11:56:44.155 | ASSIGNED:INC-9BE6EF;Ambulance2;0.4581534156157351
+11:56:44.158 | ASSIGNED:INC-D37E62;FireTruck2;0.3662538343919082
+11:56:52.066 | INCIDENT_REPORT:INC-200184:FIRE:4:45:45:OPEN
+11:56:52.067 | INCIDENT_REPORT:INC-FD06DE:MEDICAL:6:90:20:OPEN
+11:56:52.071 | INCIDENT_RECEIVED:INC-FD06DE;MEDICAL;6;90;20;OPEN
+11:56:52.085 | INCIDENT_RECEIVED:INC-200184;FIRE;4;45;45;OPEN
+11:56:52.101 | ASSIGNED:INC-FD06DE;Ambulance1;0.3644239278439205
+11:56:52.107 | INCIDENT_REPORT:INC-B7765E:STRUCTURAL_COLLAPSE:3:75:60:OPEN
+11:56:52.107 | INCIDENT_REPORT:INC-67E9ED:FIRE:10:15:25:OPEN
+11:56:52.107 | ASSIGNED:INC-200184;FireTruck1;0.405
+11:56:52.114 | INCIDENT_RECEIVED:INC-B7765E;STRUCTURAL_COLLAPSE;3;75;60;OPEN
+11:56:52.117 | INCIDENT_RECEIVED:INC-67E9ED;FIRE;10;15;25;OPEN
+11:56:52.156 | ASSIGNED:INC-B7765E;FireTruck1;0.32625383439190814
+11:56:52.156 | ASSIGNED:INC-67E9ED;FireTruck1;0.538153415615735
+11:57:00.074 | INCIDENT_REPORT:INC-6D3B29:MEDICAL:4:90:20:OPEN
+11:57:00.075 | INCIDENT_RECEIVED:INC-6D3B29;MEDICAL;4;90;20;OPEN
+11:57:05.656 | UNRESOLVED:INC-6D3B29;MEDICAL;4;90;20;OPEN
+11:57:32.148 | INCIDENT_REPORT:INC-76904A:FIRE:7:15:25:OPEN
+11:57:32.148 | INCIDENT_REPORT:INC-9F7BCE:STRUCTURAL_COLLAPSE:4:75:60:OPEN
+11:57:32.150 | INCIDENT_RECEIVED:INC-9F7BCE;STRUCTURAL_COLLAPSE;4;75;60;OPEN
+11:57:32.159 | INCIDENT_RECEIVED:INC-76904A;FIRE;7;15;25;OPEN
+11:57:32.173 | ASSIGNED:INC-9F7BCE;FireTruck1;0.33625383439190815
+11:57:32.175 | ASSIGNED:INC-76904A;FireTruck2;0.508153415615735
+SYSTEM_SHUTDOWN:Wed May 06 11:57:35 CEST 2026
+SYSTEM_START:Wed May 06 12:06:06 CEST 2026
+12:06:16.231 | INCIDENT_REPORT:INC-83C940:FIRE:3:90:20:OPEN
+12:06:16.698 | INCIDENT_RECEIVED:INC-83C940;FIRE;3;90;20;OPEN
+12:06:16.894 | ASSIGNED:INC-83C940;FireTruck2;0.3344239278439205
+12:06:24.109 | INCIDENT_REPORT:INC-8786DA:STRUCTURAL_COLLAPSE:1:75:60:OPEN
+12:06:24.111 | INCIDENT_RECEIVED:INC-8786DA;STRUCTURAL_COLLAPSE;1;75;60;OPEN
+12:06:24.124 | ASSIGNED:INC-8786DA;FireTruck2;0.3062538343919082
+12:06:32.334 | INCIDENT_REPORT:INC-467393:STRUCTURAL_COLLAPSE:1:90:20:OPEN
+12:06:32.336 | INCIDENT_RECEIVED:INC-467393;STRUCTURAL_COLLAPSE;1;90;20;OPEN
+12:06:32.370 | ASSIGNED:INC-467393;FireTruck1;0.31442392784392054
+12:06:56.156 | INCIDENT_REPORT:INC-9B5BE6:MEDICAL:2:45:45:OPEN
+12:06:56.161 | INCIDENT_RECEIVED:INC-9B5BE6;MEDICAL;2;45;45;OPEN
+12:06:56.215 | ASSIGNED:INC-9B5BE6;Ambulance2;0.385
+12:07:04.372 | INCIDENT_REPORT:INC-2E55FB:STRUCTURAL_COLLAPSE:8:90:20:OPEN
+12:07:04.374 | INCIDENT_RECEIVED:INC-2E55FB;STRUCTURAL_COLLAPSE;8;90;20;OPEN
+12:07:04.428 | ASSIGNED:INC-2E55FB;FireTruck1;0.38442392784392054
+SYSTEM_SHUTDOWN:Wed May 06 12:07:06 CEST 2026

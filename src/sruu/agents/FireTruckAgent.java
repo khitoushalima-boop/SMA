@@ -10,8 +10,10 @@ import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 import sruu.ontology.*;
 import sruu.utils.UtilityCalculator;
+import sruu.utils.OrganizationManager;
 
 import java.util.Random;
+import java.util.Iterator;
 
 public class FireTruckAgent extends Agent {
 
@@ -36,17 +38,26 @@ public class FireTruckAgent extends Agent {
 
         System.out.println("[FIRETRUCK] " + getLocalName() + " started at (" + x + "," + y + ")");
 
-        // Enregistrement DF
+        // Register with DF using AGR model (Agent-Groupe-Rôle)
         try {
-            DFAgentDescription dfd = new DFAgentDescription();
-            ServiceDescription sd1 = new ServiceDescription();
-            sd1.setType("FIRE");
-            ServiceDescription sd2 = new ServiceDescription();
-            sd2.setType("RESCUE");
-            dfd.setName(getAID());
-            dfd.addServices(sd1);
-            dfd.addServices(sd2);
+            DFAgentDescription dfd = OrganizationManager.createAgentDescription(
+                getAID(), 
+                OrganizationManager.ROLE_FIRE_TRUCK, 
+                OrganizationManager.GROUP_RESPONSE
+            );
+            
+            // Add specific service type that matches Dispatcher search
+            Iterator servicesIt = dfd.getAllServices();
+            if (servicesIt.hasNext()) {
+                ServiceDescription sd = (ServiceDescription) servicesIt.next();
+                // Use service type "FireTruck" to match Dispatcher search
+                sd.setType("FireTruck");
+                sd.setName(getLocalName());
+            }
+            
             DFService.register(this, dfd);
+            System.out.println("[FIRETRUCK] Registered with role: " + 
+                OrganizationManager.ROLE_FIRE_TRUCK + " in group: " + OrganizationManager.GROUP_RESPONSE);
         } catch (FIPAException e) {
             e.printStackTrace();
         }
@@ -87,17 +98,23 @@ public class FireTruckAgent extends Agent {
 
             try {
                 Incident incident = Incident.deserialize(content.substring(4));
-                UnitProposal proposal = new UnitProposal(
-                        getLocalName(),
-                        "FIRE",
-                        x, y,
-                        "IDLE", // status
-                        ""
-                );
+                
+                // Calculer l'utilité pour le FireTruck
+                double utility = 8.0; // Utilité de base pour les incendies
+                double distance = Math.abs(x - incident.getX()) + Math.abs(y - incident.getY());
+                double estimatedTime = distance / 10.0; // Temps estimé
+                double cost = estimatedTime * 15; // Coût basé sur le temps
+                
+                // Créer une proposition avec les valeurs numériques correctes
+                String proposalData = getLocalName() + ";" + 
+                                    incident.getId() + ";" + 
+                                    utility + ";" + 
+                                    estimatedTime + ";" + 
+                                    cost;
 
                 ACLMessage propose = cfp.createReply();
                 propose.setPerformative(ACLMessage.PROPOSE);
-                propose.setContent("PROPOSE:" + proposal.serialize());
+                propose.setContent("PROPOSE:" + proposalData);
                 myAgent.send(propose);
 
             } catch (Exception e) {
@@ -117,6 +134,9 @@ public class FireTruckAgent extends Agent {
                 case "ACTIVE":    doWork();                      break;
                 case "RETURNING": moveToward(baseX, baseY, "IDLE");     break;
             }
+            
+            // Send update to GUI after movement
+            sendUpdateToGUI();
         }
     }
 
@@ -145,11 +165,10 @@ public class FireTruckAgent extends Agent {
 
     private void doWork() {
         ticksOnSite++;
-        waterLevel -= 15; // consume water each tick
+        waterLevel -= 15; 
         System.out.println("[FIRETRUCK] " + getLocalName() + " working. Water=" + waterLevel + " ticks=" + ticksOnSite);
 
         if (waterLevel <= 0) {
-            // ABORT condition: water exhausted
             System.out.println("[FIRETRUCK] " + getLocalName() + " WATER EXHAUSTED — sending ABORT!");
             notifyDispatcher("ABORT:" + currentIncidentId);
             notifyLogger("ABORT:" + currentIncidentId + ";" + getLocalName() + ";WATER_EXHAUSTED");
@@ -166,7 +185,7 @@ public class FireTruckAgent extends Agent {
         }
     }
 
-    // === Comportement d'ecoute des demandes de position ===
+    
     private class PositionRequestListener extends CyclicBehaviour {
         private final MessageTemplate mt = MessageTemplate.and(
                 MessageTemplate.MatchPerformative(ACLMessage.REQUEST),
@@ -213,6 +232,13 @@ public class FireTruckAgent extends Agent {
         msg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
         msg.setContent("AGENT_UPDATE:" + getLocalName() + ":" + x + ":" + y + ":" + state);
         msg.setOntology("EmergencyOntology");
+        send(msg);
+    }
+    
+    private void sendUpdateToGUI() {
+        ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
+        msg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
+        msg.setContent("AGENT_UPDATE:FireTruck:" + getLocalName() + ":" + x + ":" + y + ":" + state);
         send(msg);
     }
 

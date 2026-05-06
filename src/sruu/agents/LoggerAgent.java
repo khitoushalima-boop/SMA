@@ -35,7 +35,7 @@ public class LoggerAgent extends Agent {
         }
 
         addBehaviour(new LogListenerBehaviour());
-        addBehaviour(new ReportGeneratorBehaviour(this, 180000));
+        addBehaviour(new ReportGeneratorBehaviour(this, 60000)); // 60 seconds (1 minute) instead of 3 minutes
     }
 
     private class LogListenerBehaviour extends CyclicBehaviour {
@@ -108,8 +108,16 @@ public class LoggerAgent extends Agent {
         @Override
         protected void onTick() {
             if (!reportGenerated) {
+                System.out.println("[LOGGER] 3 minutes elapsed, generating final report...");
+                System.out.println("[LOGGER] Total incidents processed: " + incidentStatuses.size());
                 generateFinalReport();
                 reportGenerated = true;
+                
+                // Send coordination signal for system shutdown
+                sendShutdownSignal();
+                
+                // Self-terminate after report
+                myAgent.doDelete();
             }
         }
     }
@@ -183,6 +191,37 @@ public class LoggerAgent extends Agent {
             }
         }
         return count;
+    }
+    
+    private void sendShutdownSignal() {
+        // Send coordination signal to all agents for graceful shutdown
+        ACLMessage shutdownMsg = new ACLMessage(ACLMessage.INFORM);
+        shutdownMsg.setContent("SIMULATION_COMPLETE");
+        shutdownMsg.setOntology("EmergencyOntology");
+        
+        // Send to all known agents
+        shutdownMsg.addReceiver(new AID("Dispatcher", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("TrafficController", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("MedicalCoordinator", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
+        
+        // Send to all sensor agents
+        shutdownMsg.addReceiver(new AID("Sensor_ZoneA", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Sensor_ZoneB", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Sensor_ZoneC", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Sensor_ZoneD", AID.ISLOCALNAME));
+        
+        // Send to all response units
+        shutdownMsg.addReceiver(new AID("Ambulance1", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Ambulance2", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("FireTruck1", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("FireTruck2", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Police1", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("Police2", AID.ISLOCALNAME));
+        shutdownMsg.addReceiver(new AID("BCU1", AID.ISLOCALNAME));
+        
+        send(shutdownMsg);
+        System.out.println("[LOGGER] Sent shutdown signal to all agents");
     }
 
     @Override

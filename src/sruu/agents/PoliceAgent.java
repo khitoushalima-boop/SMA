@@ -10,8 +10,10 @@ import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 import sruu.ontology.*;
 import sruu.utils.UtilityCalculator;
+import sruu.utils.OrganizationManager;
 
 import java.util.Random;
+import java.util.Iterator;
 
 public class PoliceAgent extends Agent {
 
@@ -22,6 +24,7 @@ public class PoliceAgent extends Agent {
     private String currentIncidentId = null;
     private int ticksSecuring = 0;
     private int patrolDirection = 1;
+    private Random random = new Random();
 
     @Override
     protected void setup() {
@@ -36,20 +39,27 @@ public class PoliceAgent extends Agent {
 
         System.out.println("[POLICE] " + getLocalName() + " started at (" + x + "," + y + ")");
 
-        // Enregistrement DF
+        // Register with DF using AGR model (Agent-Groupe-Rôle)
         try {
-            DFAgentDescription dfd = new DFAgentDescription();
-            ServiceDescription sd1 = new ServiceDescription();
-            sd1.setType("CROWD_CONTROL");
-            ServiceDescription sd2 = new ServiceDescription();
-            sd2.setType("PERIMETER");
-            ServiceDescription sd3 = new ServiceDescription();
-            sd3.setType("RESCUE");
-            dfd.setName(getAID());
-            dfd.addServices(sd1);
-            dfd.addServices(sd2);
-            dfd.addServices(sd3);
+            DFAgentDescription dfd = OrganizationManager.createAgentDescription(
+                getAID(), 
+                OrganizationManager.ROLE_POLICE, 
+                OrganizationManager.GROUP_RESPONSE
+            );
+            
+            // Add multiple capabilities
+            Iterator servicesIt = dfd.getAllServices();
+            if (servicesIt.hasNext()) {
+                ServiceDescription sd = (ServiceDescription) servicesIt.next();
+                OrganizationManager.addCapabilities(sd, 
+                    OrganizationManager.SERVICE_CROWD_CONTROL, 
+                    OrganizationManager.SERVICE_PERIMETER, 
+                    OrganizationManager.SERVICE_RESCUE);
+            }
+            
             DFService.register(this, dfd);
+            System.out.println("[POLICE] Registered with role: " + 
+                OrganizationManager.ROLE_POLICE + " in group: " + OrganizationManager.GROUP_RESPONSE);
         } catch (FIPAException e) {
             e.printStackTrace();
         }
@@ -139,6 +149,7 @@ public class PoliceAgent extends Agent {
         
         System.out.println("[POLICE] " + getLocalName() + " patrolling at (" + x + "," + y + ")");
         sendPositionUpdate();
+        sendUpdateToGUI(); // Send patrol update to GUI
     }
 
     private void moveToward(int tx, int ty, String nextState) {
@@ -148,10 +159,12 @@ public class PoliceAgent extends Agent {
         sendPositionUpdate();
 
         if (x == tx && y == ty) {
-            state = nextState;
-            onArrival(nextState);
-            sendPositionUpdate();
+            targetX = random.nextInt(100);
+            targetY = random.nextInt(100);
         }
+        
+        // Send update to GUI after movement
+        sendUpdateToGUI();
     }
 
     private void onArrival(String newState) {
@@ -222,6 +235,13 @@ public class PoliceAgent extends Agent {
         msg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
         msg.setContent("AGENT_UPDATE:" + getLocalName() + ":" + x + ":" + y + ":" + state);
         msg.setOntology("EmergencyOntology");
+        send(msg);
+    }
+    
+    private void sendUpdateToGUI() {
+        ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
+        msg.addReceiver(new AID("GUI", AID.ISLOCALNAME));
+        msg.setContent("AGENT_UPDATE:Police:" + getLocalName() + ":" + x + ":" + y + ":" + state);
         send(msg);
     }
 
